@@ -7,6 +7,12 @@ $ cc -o hello hello.c
 $ ./hello
 Hello World
 ```
+### COBOL hello.cob
+```
+$ cobc -x hello.cob
+$ ./hello
+Hello World
+```
 
 ### Dockers hello.dockers
 ```
