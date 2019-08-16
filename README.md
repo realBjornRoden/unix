@@ -1,12 +1,12 @@
 # Hello World
 
 ### C hello.c
-
+```
 $ cc -o hello hello.c
 
 $ ./hello
 Hello World
-
+```
 
 ### Dockers hello.dockers
 ```
@@ -32,7 +32,7 @@ Hello World
 ```
 
 ### HTML hello.html
-
+(in HTML)
 
 ### JAVA hello.java
 ```
