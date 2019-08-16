@@ -1,4 +1,4 @@
-# unix Hello World
+# Hello World
 
 ### C hello.c
 
@@ -14,8 +14,11 @@ $ sh hello.dockers
 Password:
 Hello World
 
-### Golang
-hello.go
+
+### Golang hello.go
+
+$ go run hello.go
+hello, world
 
 
 ### Haskell hello.hs
@@ -41,13 +44,17 @@ $ javac hello.java
 $ java hello
 Hello World
 
+
 ### JavaScript hello.js
 (in HTML)
+
 
 ### PHP hello.php
 (in HTML)
 
+
 ### Python hello.py
+
 $ python hello.py
 hello world
 
