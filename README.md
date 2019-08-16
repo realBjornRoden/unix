@@ -32,7 +32,10 @@ Hello World
 ```
 
 ### HTML hello.html
-(in HTML)
+(in HTML; textbased with lynx)
+```
+lynx hello.html
+```
 
 ### JAVA hello.java
 ```
@@ -46,8 +49,11 @@ Hello World
 ```
 
 ### JavaScript hello.js
-(in HTML)
-
+(in NODE)
+```
+/Users/bjro/code/unix: node hello.js
+Hello World
+```
 
 ### PHP hello.php
 (in HTML)
