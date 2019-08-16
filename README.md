@@ -51,7 +51,7 @@ Hello World
 ### JavaScript hello.js
 (in NODE)
 ```
-/Users/bjro/code/unix: node hello.js
+$ node hello.js
 Hello World
 ```
 
