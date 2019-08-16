@@ -24,7 +24,7 @@ Hello World
 ### Golang hello.go
 ```
 $ go run hello.go
-hello, world
+Hello World
 ```
 
 ### Haskell hello.hs
