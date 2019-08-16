@@ -56,7 +56,7 @@ Hello World
 ```
 
 ### PHP hello.php
-(in HTML)
+(in HTML; http server with php)
 
 
 ### Python hello.py
