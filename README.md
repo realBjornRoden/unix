@@ -1,25 +1,38 @@
 # unix Hello World
 
-# C
-hello.c
+### C hello.c
 
-# Dockers
-* hello.dockers
+$ cc -o hello hello.c
 
-# Golang
-* hello.go
+$ ./hello
+Hello World
 
-# Haskell hello.hs
-* $ ghc hello.hs
-* [1 of 1] Compiling Main             ( hello.hs, hello.o )
-* Linking hello ...
-* $ ./hello
-* Hello World
 
-# HTML
-hello.html
+### Dockers hello.dockers
 
-# JAVA hello.java
+$ sh hello.dockers 
+Password:
+Hello World
+
+### Golang
+hello.go
+
+
+### Haskell hello.hs
+
+$ ghc hello.hs
+[1 of 1] Compiling Main             ( hello.hs, hello.o )
+Linking hello ...
+
+$ ./hello
+Hello World
+
+
+### HTML hello.html
+
+
+### JAVA hello.java
+
 $ java hello.java
 Hello World
 
@@ -28,18 +41,39 @@ $ javac hello.java
 $ java hello
 Hello World
 
+### JavaScript hello.js
+(in HTML)
 
-# JavaScript (in HTML not NODE)
-hello.js
+### PHP hello.php
+(in HTML)
 
-# PHP
-hello.php
+### Python hello.py
+$ python hello.py
+hello world
 
-# Python
-hello.py
+$ python3 hello.py
+hello world
 
-# Ruby
-hello.rb
 
-# Shell (Unix Bourne style shell and derivaties)
-hello.sh
+### Ruby hello.rb
+$ ruby hello.rb
+Hello World
+
+
+### Shell hello.sh
+(Unix Bourne style shell and derivaties)
+
+$ sh hello.sh
+Hello World
+
+$ hello.sh
+-bash: hello.sh: command not found
+
+$ ./hello.sh
+-bash: ./hello.sh: Permission denied
+
+$ chmod +x ./hello.sh
+
+$ ./hello.sh
+Hello World
+
