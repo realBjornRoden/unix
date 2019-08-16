@@ -40,7 +40,7 @@ Hello World
 ### HTML hello.html
 (in HTML; textbased with lynx)
 ```
-lynx hello.html
+$ lynx hello.html
 ```
 
 ### JAVA hello.java
