@@ -1,25 +1,25 @@
 # unix Hello World
 
-C
+# C
 hello.c
 
-Dockers
-hello.dockers
+# Dockers
+* hello.dockers
 
-Golang
-hello.go
+# Golang
+* hello.go
 
-Haskell hello.hs
-$ ghc hello.hs
-[1 of 1] Compiling Main             ( hello.hs, hello.o )
-Linking hello ...
-$ ./hello
-Hello World
+# Haskell hello.hs
+* $ ghc hello.hs
+* [1 of 1] Compiling Main             ( hello.hs, hello.o )
+* Linking hello ...
+* $ ./hello
+* Hello World
 
-HTML
+# HTML
 hello.html
 
-JAVA hello.java
+# JAVA hello.java
 $ java hello.java
 Hello World
 
@@ -29,17 +29,17 @@ $ java hello
 Hello World
 
 
-JavaScript (in HTML not NODE)
+# JavaScript (in HTML not NODE)
 hello.js
 
-PHP
+# PHP
 hello.php
 
-Python
+# Python
 hello.py
 
-Ruby
+# Ruby
 hello.rb
 
-Shell (Unix Bourne style shell and derivaties)
+# Shell (Unix Bourne style shell and derivaties)
 hello.sh
