@@ -38,7 +38,7 @@ Hello World
 ```
 
 ### HTML hello.html
-(in HTML; textbased with lynx)
+(in HTML browser; textbased with lynx)
 ```
 $ lynx hello.html
 ```
@@ -62,7 +62,7 @@ Hello World
 ```
 
 ### PHP hello.php
-(in HTML; http server with php)
+(in HTML browser; http server with php)
 
 
 ### Python hello.py
@@ -96,4 +96,8 @@ $ chmod +x ./hello.sh
 
 $ ./hello.sh
 Hello World
+```
+
+### SVG hello.svg
+(in HTML browser)
 ```
