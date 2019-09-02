@@ -27,6 +27,8 @@ Hello World
 $ env FLASK_APP=hello-flask.py flask run & 
 $ lynx http://127.0.0.1:5000/
 $ curl -s http://127.0.0.1:5000/ | xargs echo
+127.0.0.1 - - [01/Sep/2019 12:04:19] "GET / HTTP/1.1" 200 -
+Hello, World!
 $ fg
 $ <CTRL+C>
 ```
