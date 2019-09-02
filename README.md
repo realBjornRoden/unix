@@ -77,7 +77,7 @@ Hello World
 ### Python hello.py
 ```
 $ python hello.py
-hello world
+Hello World
 
 $ python3 hello.py
 hello world
