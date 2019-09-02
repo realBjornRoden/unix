@@ -22,6 +22,7 @@ Hello World
 ```
 
 ### Flask hello-flask.py
+(in HTML browser; textbased with lynx)
 ```
 $ env FLASK_APP=hello-flask.py flask run & 
 $ lynx http://127.0.0.1:5000/
