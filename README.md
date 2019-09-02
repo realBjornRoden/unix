@@ -80,7 +80,7 @@ $ python hello.py
 Hello World
 
 $ python3 hello.py
-hello world
+Hello World
 ```
 
 ### Ruby hello.rb
