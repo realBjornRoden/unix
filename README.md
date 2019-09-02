@@ -22,10 +22,11 @@ Hello World
 ```
 
 ### Flask hello-flask.py
-(in HTML browser; textbased with lynx)
+(in HTML browser; textbased with lynx or curl)
 ```
 $ env FLASK_APP=hello-flask.py flask run & 
 $ lynx http://127.0.0.1:5000/
+$ curl -s http://127.0.0.1:5000/ | xargs echo
 $ fg
 $ <CTRL+C>
 ```
