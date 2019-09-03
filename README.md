@@ -28,7 +28,7 @@ $ env FLASK_APP=hello-flask.py flask run &
 $ lynx http://127.0.0.1:5000/
 $ curl -s http://127.0.0.1:5000/ | xargs echo
 127.0.0.1 - - [01/Sep/2019 12:04:19] "GET / HTTP/1.1" 200 -
-Hello, World!
+Hello World
 $ fg
 $ <CTRL+C>
 ```
@@ -53,6 +53,15 @@ Hello World
 (in HTML browser; textbased with lynx)
 ```
 $ lynx hello.html
+```
+
+### HTTP hello-server.py
+(in HTML browser; textbased with lynx or curl)
+```
+$ python server.py &
+$ curl -s 127.0.0.1:80|xargs echo
+127.0.0.1 - - [03/Sep/2019 10:00:57] "GET / HTTP/1.1" 200 -
+Hello World
 ```
 
 ### JAVA hello.java
@@ -113,3 +122,4 @@ Hello World
 ### SVG hello.svg
 (in HTML browser)
 ```
+
