@@ -1,10 +1,10 @@
 * Install KornShell on mac
    ```
-   brew install ksh
+   $ brew install ksh
    ```
 * Enable ksh as default shell for the user
    ```
-   chsh -s /bin/ksh
+   $ chsh -s /bin/ksh
    ```
 * Configure ~/.profile
    ```
