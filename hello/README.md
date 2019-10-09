@@ -1,0 +1,278 @@
+# Hello World
+
+### C hello.c
+```
+$ cc -o hello hello.c
+$ ./hello
+Hello World
+```
+Source
+```
+#include <stdio.h>
+int main(){printf("Hello World\n");}
+```
+
+### C++ hello.cpp
+```
+$ c++ -o hello hello.cpp
+$ ./hello
+Hello World
+```
+Source
+```
+#include <iostream>
+int main() { std::cout << "Hello World\n"; }
+```
+
+### COBOL hello.cob
+```
+$ cobc -x hello.cob
+$ ./hello
+Hello World
+```
+Source (original format)
+```
+    IDENTIFICATION DIVISION.
+    PROGRAM-ID. hello.
+
+    PROCEDURE DIVISION.
+    DISPLAY 'Hello World'.
+    STOP RUN.
+```
+
+### Dockers hello.dockers
+```
+$ sh hello.dockers 
+Password:
+Hello World
+```
+Source
+```
+#
+# ksh or bash on POSIX 1003.1 aligned operating system enviornments/B.Roden@2019
+#
+IMAGE=alpine
+sudo docker run --name helloWorld $IMAGE echo "Hello World" 2>/dev/null
+[[ $? -ne 0 ]] && exit 1
+INSTANCE=$(docker container ls -a 2>/dev/null|awk '/alpine/&&/helloWorld/{print $1}')
+RC=$(docker inspect --format='{{.Config.Image}}' $INSTANCE 2>/dev/null|grep -c $IMAGE)
+[[ $RC -gt 0 ]] && docker rm $INSTANCE >/dev/null 2>&1
+RC=$(docker inspect --format='{{.Config.Image}}' $INSTANCE 2>/dev/null|grep -c $IMAGE)
+###[[ $RC -gt 0 ]] || echo "REMOVED $INSTANCE of $IMAGE"
+```
+
+### Flask hello-flask.py
+(in HTML browser; textbased with curl or lynx)
+```
+$ env FLASK_APP=hello-flask.py flask run & 
+$ curl -s http://127.0.0.1:5000/ | xargs echo
+127.0.0.1 - - [01/Sep/2019 12:04:19] "GET / HTTP/1.1" 200 -
+Hello World
+$ fg
+$ <CTRL+C>
+```
+Source
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello World"
+```
+
+### Fortran hello.f
+```
+$ gfortran -ffree-form hello.f -o hello
+$ ./hello
+Hello World
+```
+Source (free format)
+```
+program hello
+print *,'Hello World'
+end
+```
+Source (original format)
+```
+      program hello
+      implicit none
+c
+      character*32 text
+c
+      text = 'Hello World'
+      write (*,*) text
+c
+      end
+```
+Source (ancient format)
+```
+        WRITE (6, 100)
+100     FORMAT (1H ,11HHello World)
+        CALL EXIT
+        END
+```
+
+### Golang hello.go
+```
+$ go run hello.go
+Hello World
+```
+Source
+```
+package main
+import "fmt"
+func main() {
+	   fmt.Printf("Hello World\n")
+}
+```
+
+### Haskell hello.hs
+```
+$ ghc hello.hs
+[1 of 1] Compiling Main             ( hello.hs, hello.o )
+Linking hello ...
+
+$ ./hello
+Hello World
+```
+Source
+```
+main = putStrLn "Hello World"
+```
+
+### HTML hello.html
+(in HTML browser; textbased with curl/lynx)
+```
+$ python3 -m http.server &
+$ curl http://0.0.0.0:8000/hello.html
+```
+Source
+```
+<!DOCTYPE html>
+<html> <head> <meta charset="utf-8"> <title>Hello World</title> </head>
+<body>Hello World</body>
+</html>
+```
+
+### JAVA hello.java
+```
+$ java hello.java
+Hello World
+
+$ javac hello.java
+
+$ java hello
+Hello World
+```
+Source
+```
+class hello { 
+	public static void main(String args[]) { 
+		System.out.println("Hello World"); 
+	} 
+}
+```
+
+### JavaScript hello.js
+(in NODE)
+```
+$ node hello.js
+Hello World
+```
+Source
+```
+console.log("Hello World");
+```
+
+### Pascal hello.p
+```
+$ fpc hello.p
+Free Pascal Compiler version 3.0.4 [2018/09/30] for x86_64
+Copyright (c) 1993-2017 by Florian Klaempfl and others
+Target OS: Darwin for x86_64
+Compiling hello.p
+Assembling (pipe) hello.s
+Linking hello
+5 lines compiled, 0.1 sec
+
+$ ./hello
+Hello World
+```
+Source
+```
+program hello;
+begin
+	writeln('Hello world');
+end.
+```
+
+### PHP hello.php
+(in HTML browser; http server with php module)
+```
+$ curl http://127.0.0.1:80/hello.php; echo
+127.0.0.1 - - [07/Oct/2019 07:14:04] "GET /hello.php HTTP/1.1" 200 -
+Hello World
+```
+Source
+```
+<!DOCTYPE html>
+<html> <head> <meta charset="utf-8"> <title>Hello World</title> </head>
+<body> <?php echo '<p>Hello World</p>'; ?> </body> </html>
+```
+
+### Python hello.py
+```
+$ python hello.py
+Hello World
+
+$ python3 hello.py
+Hello World
+```
+Source
+```
+print("Hello World")
+```
+
+### Ruby hello.rb
+```
+$ ruby hello.rb
+Hello World
+```
+Source
+```
+puts 'Hello World'
+```
+
+### Shell hello.sh
+(Unix Bourne style shell and its derivaties, such as Korn, Bash, Z, etc)
+```
+$ sh hello.sh
+Hello World
+
+$ hello.sh
+-bash: hello.sh: command not found
+
+$ ./hello.sh
+-bash: ./hello.sh: Permission denied
+
+$ chmod +x ./hello.sh
+
+$ ./hello.sh
+Hello World
+```
+Source
+```
+echo "Hello World"
+```
+
+### SVG hello.svg
+(in HTML browser)
+Source
+```
+<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <text x="0" y="14">Hello World</text>
+</svg>
+```
+
