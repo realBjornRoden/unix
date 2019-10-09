@@ -6,7 +6,7 @@
    ```
    $ chsh -s /bin/ksh
    ```
-* Configure ~/.profile
+* Configure `~/.profile`
    ```
    export PS1="\$PWD $ "
    export VISUAL=/usr/bin/vi
