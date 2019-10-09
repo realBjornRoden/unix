@@ -1,4 +1,4 @@
-# statplot
+# statplot with Python & Pandas
 
 Verify script as Open Sourced:
 1. `md5 ${0##*/} > ${0##*/}.check`
