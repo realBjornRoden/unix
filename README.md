@@ -61,7 +61,7 @@
    ```
 
 * Load environment variables and aliases etc
-   * use dot `.` not `source` to load, too much to type (5 times) and no functional difference, and thus the later contradict the "unix ethos"
+   * use dot `.` not `source` to load, too much to type without functional difference and thus contradict the "unix ethos"
       ```
       $ grep PS1 ~/.profile
       export "PS1="\${PWD#*/*/*/} \$ "
