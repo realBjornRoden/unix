@@ -60,7 +60,7 @@
    ```
 
 * Load environment variables and aliases etc
-   * use dot not "source", too much to type and thus contradict the "unix ethos"
+   * use dot not `source`, too much to type and thus contradict the "unix ethos"
       ```
       $ grep PS1 ~/.profile
       export "PS1="\${PWD#*/*/*/} \$ "
