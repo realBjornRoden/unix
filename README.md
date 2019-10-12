@@ -59,29 +59,34 @@
       ```
 
 * VI editor and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode)
-   `k` - Up one line
-   `j` - Down one line
-   `w` - Right one word
-   `b` - Left one word
-   `l` - Right one character
-   `h` - Left one character
-   `Y` - Copy one line
-   `p` - Paste copy buffer to after cursor line
-   `P` - Paste copy buffer to before cursor line
-   `i` - Insert at cursor
-   `I` - Insert at begining of line
-   `a` - Append after cursor
-   `A` - Append after end of line
-   `s` - Substitute one character at cursor
-   `S` - Substitute the whole line
-   `x` - Delete one character at cursor
-   `X` - Delete one character at cursor move left
-   `.` - Repeat last command
-   `ESC-ZZ` - Save file and exit
-   `ESC-:wq` - Save file and exit
-   `ESC-:wq!` - write quit forced
-   `ESC-:w` - Save file
-   `ESC-/` - Enter search mode
-   `ESC-:` - Enter line command mode
-   ...tbc...
+`.` - Repeat last command
+`k` - Up one line
+`j` - Down one line
+`w` - Right one word
+`b` - Left one word
+`l` - Right one character
+`h` - Left one character
+`Y` - Copy one line
+`p` - Paste copy buffer to after cursor line
+`P` - Paste copy buffer to before cursor line
+`i` - Insert at cursor
+`I` - Insert at begining of line
+`a` - Append after cursor
+`A` - Append after end of line
+`s` - Substitute one character at cursor
+`S` - Substitute the whole line
+`u` - Undo last command
+`x` - Delete one character at cursor
+`X` - Delete one character at cursor move left
+`dw` - Delete one word from cursor forward
+`db` - Delete one word from cursor backward
+`cw` - Change one word from cursor forward
+`cb` - Change one word from cursor backward
+`ESC-ZZ` - Save file and exit
+`ESC-:wq` - Save file and exit
+`ESC-:wq!` - write quit forced
+`ESC-:w` - Save file
+`ESC-/` - Enter search mode
+`ESC-:` - Enter line command mode
+...tbc...
 
