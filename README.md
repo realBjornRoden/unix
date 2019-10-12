@@ -27,8 +27,8 @@
 ## How To
 
 * Copy-Paste text in Terminal
-   1. Select text to copy > CTRL-C > Put marker at insertion point > CTRL-V, and the text is copy-pasted to the insertion point
-   1. Put marker at insertion point > Select text to copy, and then release the mouse/trackpad pressure > Select the marked text and "pull" it slightly until the colored circle with "+" sign appear (direction not important) > Release the mouse/trackpad pressure, and the text is copy-pasted to the insertion point
+   1. Select text to copy > CTRL-C > Put cursor at insertion point > CTRL-V, and the text is copy-pasted to the insertion point
+   1. Put cursor at insertion point > Select text to copy, and then release the mouse/trackpad pressure > Select the marked text and "pull" it slightly until the colored circle with "+" sign appear (direction not important) > Release the mouse/trackpad pressure, and the text is copy-pasted to the insertion point
 
 * Setting a minimalistic but most useful command line prompt
    * For workstation only, dont need username, hostname or wasting a separate line with color time and other non-important information at each and every ENTER
@@ -57,4 +57,31 @@
       $ . ~/.profile
       code/unix $
       ```
+
+* VI editor and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode)
+   `k` - Up one line
+   `j` - Down one line
+   `w` - Right one word
+   `b` - Left one word
+   `l` - Right one character
+   `h` - Left one character
+   `Y` - Copy one line
+   `p` - Paste copy buffer to after cursor line
+   `P` - Paste copy buffer to before cursor line
+   `i` - Insert at cursor
+   `I` - Insert at begining of line
+   `a` - Append after cursor
+   `A` - Append after end of line
+   `s` - Substitute one character at cursor
+   `S` - Substitute the whole line
+   `x` - Delete one character at cursor
+   `X` - Delete one character at cursor move left
+   `.` - Repeat last command
+   `ESC-ZZ` - Save file and exit
+   `ESC-:wq` - Save file and exit
+   `ESC-:wq!` - write quit forced
+   `ESC-:w` - Save file
+   `ESC-/` - Enter search mode
+   `ESC-:` - Enter line command mode
+   ...tbc...
 
