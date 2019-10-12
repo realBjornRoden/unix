@@ -19,8 +19,7 @@
       export EDITOR=/usr/bin/vi
       ```
 ## Proper visual EDITOR
-* [vi](https://en.wikipedia.org/wiki/Vi)
-   * [vim](https://en.wikipedia.org/wiki/Vim_(text_editor))
+* [vi](https://en.wikipedia.org/wiki/Vi) & [vim](https://en.wikipedia.org/wiki/Vim_(text_editor))
 
 ## Proper TOOLS
 * [gnu tool packages](https://www.gnu.org/software/software.html)
