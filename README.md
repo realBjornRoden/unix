@@ -44,7 +44,7 @@
       /home/bjro $ pwer
       /home/bjro
       ```
-   * For multi-user hosts only, where it is common to slip around/jump between hosts over TCP/IP and substitute/change user id (and real rooters don't clobber "/")
+   * For multi-user hosts only, where it is common to slip around/jump between hosts over TCP connections, and substitute/change user id (and real rooters don't clobber "/")
       ```
       $ export "PS1="$LOGNAME@$(hostname -s):\${PWD#*/*/*/} \$ "
       bjro@server123:code/unix $ ssh honeyp321
