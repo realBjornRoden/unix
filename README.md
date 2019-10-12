@@ -53,9 +53,11 @@
       root honeyp321 /
       ```
 
-* Defaulting command line editor and command line visual editor (invoked with CTRL-v to edit long command line code), add to ~/.profile
-      export VISUAL=/usr/bin/vi
-      export EDITOR=/usr/bin/vi
+* Defaulting command line editor and command line visual editor (invoked with `ESC-v` to edit long command line code), add to `~/.profile`
+   ```
+   export VISUAL=/usr/bin/vi
+   export EDITOR=/usr/bin/vi
+   ```
 
 * Load environment variables and aliases etc
    * use dot not "source", too much to type and thus contradict the "unix ethos"
