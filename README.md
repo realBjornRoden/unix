@@ -1,6 +1,7 @@
 ## Proper Desktop Unix
 * [darwin aka macosx](https://en.wikipedia.org/wiki/Darwin_(operating_system))
 * [darwin-xnu kernel](https://github.com/apple/darwin-xnu/blob/master/README.md)
+* [Shell and Utilities volume of IEEE POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)
 
 ## Proper Command Line SHELL
 * [ksh](https://en.wikipedia.org/wiki/KornShell)
@@ -60,7 +61,7 @@
    ```
 
 * Load environment variables and aliases etc
-   * use dot not `source`, too much to type and thus contradict the "unix ethos"
+   * use dot `.` not `source` to load, too much to type (5 times) and no functional difference, and thus the later contradict the "unix ethos"
       ```
       $ grep PS1 ~/.profile
       export "PS1="\${PWD#*/*/*/} \$ "
