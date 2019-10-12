@@ -44,6 +44,14 @@
       /home/bjro $ pwer
       /home/bjro
       ```
+   * For multi-user hosts only, where it is common to slip around/jump between hosts over TCP/IP and substitute/change user id (and real rooters don't clobber "/")
+      ```
+      $ export "PS1="$LOGNAME@$(hostname -s):\${PWD#*/*/*/} \$ "
+      bjro@server123:code/unix $ ssh honeyp321
+      bjro@honeyp321:code/unix $ su - root
+      root@honeyp321:/ $ echo $LOGNAME $(hostname -s) $PWD
+      root honeyp321 /
+      ```
 
 * Defaulting command line editor and command line visual editor (invoked with CTRL-v to edit long command line code), add to ~/.profile
       export VISUAL=/usr/bin/vi
