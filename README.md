@@ -111,7 +111,7 @@
 `:e#` - Enter line command mode, and switch the visual editor to the previous file (when editing multiple files)<br>
 `:map` - Enter line command mode, and show key-action mapping<br>
 <br>
-...tbc...
+
    * VI optional initialization command file `.exrc`, in this case set the tabstop to 4 instead of default 8
    ```
    set tabstop=4
