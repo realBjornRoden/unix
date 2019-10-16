@@ -69,7 +69,7 @@
       code/unix $
       ```
 
-* VI editor and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode). In interactive shell, `ESC-v` will enter into `$VISUAL` editor for the command line (save & exit will execute the edited command).<br>
+* VI editor ([posix-vi-man-page](https://www.unix.com/man-page/posix/1/vi/)) and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode). In interactive shell, `ESC-v` will enter into `$VISUAL` editor for the command line (save & exit will execute the edited command).<br>
 `.` - Repeat last command<br>
 `k` - Up one line<br>
 `j` - Down one line<br>
@@ -93,17 +93,26 @@
 `db` - Delete one word from cursor backward<br>
 `cw` - Change one word from cursor forward<br>
 `cb` - Change one word from cursor backward<br>
-`ESC-ZZ` - Save file and exit<br>
-`ESC-:wq` - Save file and exit<br>
-`ESC-:wq!` - write quit forced<br>
-`ESC-:w` - Save file<br>
-`ESC-/` - Enter search mode (down)<br>
-`ESC-?` - Enter search mode (up)<br>
-`ESC-:` - Enter line command mode<br>
-`ESC-:!ls` - Enter line command mode, and run the "ls" command in a subshell<br>
-`ESC-:r!ls` - Enter line command mode, and run the "ls" command in a subshell, and read the the output into the editor (at the cursor)<br>
-`ESC-:r /etc/motd` - Enter line command mode, and read the content of the file /etc/motd into the editor (at the cursor)<br>
-`ESC-:%!sort` - Enter line command mode, and for all lines in the file "%", run the "sort" command in a subshell and replace the content of the file<br>
-`ESC-:2,$!sort` - Enter line command mode, and for all lines from 2 until end of file "2,$", run the "sort" command in a subshell and replace the content of the file (if the file has a header line)<br>
+`ZZ` - Save file and exit<br>
+`/` - Enter search mode (down)<br>
+`?` - Enter search mode (up)<br>
+`:` - Enter line command mode<br>
+`:w` - Enter line command mode, and save file<br>
+`:wq` - Enter line command mode, and save file and exit<br>
+`:wq!` - Enter line command mode, and write quit forced<br>
+`:r /etc/motd` - Enter line command mode, and read the content of the file "/etc/motd" into the editor (at the cursor)<br>
+`:!ls` - Enter line command mode, and run the "ls" command in a subshell<br>
+`:r!ls` - Enter line command mode, and run the "ls" command in a subshell, and read the the output into the editor (at the cursor)<br>
+`:%!sort` - Enter line command mode, and for all lines in the file "%", run the "sort" command in a subshell and replace the content of the file<br>
+`:2,$!sort` - Enter line command mode, and for all lines from 2 until end of file "2,$", run the "sort" command in a subshell and replace the content of the file (if the file has a header line)<br>
+`:!rm %` - Enter line command mode, and run the "rm" command on the edited filename "%"<br>
+`:e /etc/motd` - Enter line command mode, and open the file /etc/motd into the editor<br>
+`:n` - Enter line command mode, and switch the visual editor to the next file (when editing multiple files)<br>
+`:e#` - Enter line command mode, and switch the visual editor to the previous file (when editing multiple files)<br>
+`:map` - Enter line command mode, and show key-action mapping<br>
 <br>
 ...tbc...
+   * VI optional initialization command file `.exrc`, in this case set the tabstop to 4 instead of default 8
+   ```
+   set tabstop=4
+   ```
