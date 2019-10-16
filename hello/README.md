@@ -276,3 +276,15 @@ Source
 </svg>
 ```
 
+### Vala hello.vala
+```
+$ valac hello.vala
+$ ./hello
+Hello World
+```
+Source
+```
+void main () {
+	print ("Hello World\n");
+}
+```
