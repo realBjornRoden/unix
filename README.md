@@ -97,7 +97,9 @@
 `ESC-:wq` - Save file and exit
 `ESC-:wq!` - write quit forced
 `ESC-:w` - Save file
-`ESC-/` - Enter search mode
+`ESC-/` - Enter search mode (down)
+`ESC-?` - Enter search mode (up)
 `ESC-:` - Enter line command mode
+`ESC-:!ls` - Enter line command mode, and run the "ls" command in a subshell
 ...tbc...
 
