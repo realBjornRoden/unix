@@ -70,40 +70,40 @@
       ```
 
 * VI editor and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode)
-`.` - Repeat last command
-`k` - Up one line
-`j` - Down one line
-`w` - Right one word
-`b` - Left one word
-`l` - Right one character
-`h` - Left one character
-`Y` - Copy one line
-`p` - Paste copy buffer to after cursor line
-`P` - Paste copy buffer to before cursor line
-`i` - Insert at cursor
-`I` - Insert at begining of line
-`a` - Append after cursor
-`A` - Append after end of line
-`s` - Substitute one character at cursor
-`S` - Substitute the whole line
-`u` - Undo last command
-`x` - Delete one character at cursor
-`X` - Delete one character at cursor move left
-`dw` - Delete one word from cursor forward
-`db` - Delete one word from cursor backward
-`cw` - Change one word from cursor forward
-`cb` - Change one word from cursor backward
-`ESC-ZZ` - Save file and exit
-`ESC-:wq` - Save file and exit
-`ESC-:wq!` - write quit forced
-`ESC-:w` - Save file
-`ESC-/` - Enter search mode (down)
-`ESC-?` - Enter search mode (up)
-`ESC-:` - Enter line command mode
-`ESC-:!ls` - Enter line command mode, and run the "ls" command in a subshell
-`ESC-:r!ls` - Enter line command mode, and run the "ls" command in a subshell, and read the the output into the editor (at the cursor)
-`ESC-:r /etc/motd` - Enter line command mode, and read the content of the file /etc/motd into the editor (at the cursor)
-`ESC-:%!sort` - Enter line command mode, and for all lines in the file "%", run the "sort" command in a subshell and replace the content of the file
-`ESC-:2,$!sort` - Enter line command mode, and for all lines from 2 until end of file "2,$", run the "sort" command in a subshell and replace the content of the file (if the file has a header line)
+`.` - Repeat last command<br>
+`k` - Up one line<br>
+`j` - Down one line<br>
+`w` - Right one word<br>
+`b` - Left one word<br>
+`l` - Right one character<br>
+`h` - Left one character<br>
+`Y` - Copy one line<br>
+`p` - Paste copy buffer to after cursor line<br>
+`P` - Paste copy buffer to before cursor line<br>
+`i` - Insert at cursor<br>
+`I` - Insert at begining of line<br>
+`a` - Append after cursor<br>
+`A` - Append after end of line<br>
+`s` - Substitute one character at cursor<br>
+`S` - Substitute the whole line<br>
+`u` - Undo last command<br>
+`x` - Delete one character at cursor<br>
+`X` - Delete one character at cursor move left<br>
+`dw` - Delete one word from cursor forward<br>
+`db` - Delete one word from cursor backward<br>
+`cw` - Change one word from cursor forward<br>
+`cb` - Change one word from cursor backward<br>
+`ESC-ZZ` - Save file and exit<br>
+`ESC-:wq` - Save file and exit<br>
+`ESC-:wq!` - write quit forced<br>
+`ESC-:w` - Save file<br>
+`ESC-/` - Enter search mode (down)<br>
+`ESC-?` - Enter search mode (up)<br>
+`ESC-:` - Enter line command mode<br>
+`ESC-:!ls` - Enter line command mode, and run the "ls" command in a subshell<br>
+`ESC-:r!ls` - Enter line command mode, and run the "ls" command in a subshell, and read the the output into the editor (at the cursor)<br>
+`ESC-:r /etc/motd` - Enter line command mode, and read the content of the file /etc/motd into the editor (at the cursor)<br>
+`ESC-:%!sort` - Enter line command mode, and for all lines in the file "%", run the "sort" command in a subshell and replace the content of the file<br>
+`ESC-:2,$!sort` - Enter line command mode, and for all lines from 2 until end of file "2,$", run the "sort" command in a subshell and replace the content of the file (if the file has a header line)<br>
+<br>
 ...tbc...
-
