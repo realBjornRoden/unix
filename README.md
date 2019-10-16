@@ -113,6 +113,6 @@
 <br>
 
    * VI optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
-   ```
-   set tabstop=4
-   ```
+      ```
+      set tabstop=4
+      ```
