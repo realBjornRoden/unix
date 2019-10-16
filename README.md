@@ -101,5 +101,9 @@
 `ESC-?` - Enter search mode (up)
 `ESC-:` - Enter line command mode
 `ESC-:!ls` - Enter line command mode, and run the "ls" command in a subshell
+`ESC-:r!ls` - Enter line command mode, and run the "ls" command in a subshell, and read the the output into the editor (at the cursor)
+`ESC-:r /etc/motd` - Enter line command mode, and read the content of the file /etc/motd into the editor (at the cursor)
+`ESC-:%!sort` - Enter line command mode, and for all lines in the file "%", run the "sort" command in a subshell and replace the content of the file
+`ESC-:2,$!sort` - Enter line command mode, and for all lines from 2 until end of file "2,$", run the "sort" command in a subshell and replace the content of the file (if the file has a header line)
 ...tbc...
 
