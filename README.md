@@ -69,7 +69,7 @@
       code/unix $
       ```
 
-* VI editor and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode)
+* VI editor and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode). In interactive shell, `ESC-v` will enter into VISUAL editor for the command line (save & exit will execute the edited command)<br>
 `.` - Repeat last command<br>
 `k` - Up one line<br>
 `j` - Down one line<br>
