@@ -5,7 +5,7 @@
 
 ## Proper Command Line SHELL
 * [ksh](https://en.wikipedia.org/wiki/KornShell)
-   * Install KornShell on mac
+   * Install KornShell on macosx
       ```
       $ brew install ksh
       ```
