@@ -22,21 +22,28 @@
 # SOFTWARE.
 # 
 import sys, getopt, os.path
-import textfsm
+try: import textfsm
+except: sys.exit('***ENOTEXTFSM')
 
 if len(sys.argv) < 3: sys.exit('***ENOARG inputfile templatefile')
 for i in range(len(sys.argv)): 
-   if not os.path.isfile(sys.argv[i]): sys.exit('***ENOFILE ' + sys.argv[i])
-   if not os.access(sys.argv[i],os.R_OK): sys.exit('***ENOREAD ' + sys.argv[i])
+ if not os.path.isfile(sys.argv[i]): sys.exit('***ENOFILE ' + sys.argv[i])
+ if not os.access(sys.argv[i],os.R_OK): sys.exit('***ENOREAD ' + sys.argv[i])
 
-fd = open(sys.argv[1], encoding='utf-8')
-file_data = fd.read()
-fd.close()
+try:
+ with open(sys.argv[1], encoding='utf-8') as fd:
+  try: file_data = fd.read()
+  except: sys.exit('***EREAD')
+except: sys.exit('***EOPEN' + sys.argv[1])
 
-with open(sys.argv[2]) as fd:
-    parser = textfsm.TextFSM(fd)
+try:
+ with open(sys.argv[2]) as fd:
+  try: parser = textfsm.TextFSM(fd)
+  except: sys.exit('***ETEXTFSM')
+except: sys.exit('***EOPEN' + sys.argv[2])
 
-result = parser.ParseText(file_data)
+try: result = parser.ParseText(file_data)
+except: sys.exit('***EPARSETEXT')
 
 try:
    os.environ["HEADER"]
@@ -44,7 +51,4 @@ try:
 except: pass
 
 for row in result:
-#   if row[3] == 'Down': print(row[0],row[1],'Down')
-#   elif row[4] == '':  print(row[0],row[1],'Down')
-#   else: print(row)
    print(row)
