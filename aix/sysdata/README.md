@@ -6,7 +6,7 @@ Verify script as Open Sourced:
 1. `echo $?` # if 0 OK otherwise it is not with output such as "FILE.md5 FILE.check differ: char 23, line 1"
 -->
 
-##Files:
+## Files
 * [digest-data.py](digest-data.py)
 
 ## Setup
