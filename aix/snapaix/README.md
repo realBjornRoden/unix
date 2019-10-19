@@ -1,5 +1,6 @@
 # snapaix
 
+## Verify
 Verify script as Open Sourced:
 1. `md5 ${0##*/} > ${0##*/}.check`
 1. `cmp ${0##*/}.md5 ${0##*/}.check` 
