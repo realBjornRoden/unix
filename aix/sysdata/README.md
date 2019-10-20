@@ -1,4 +1,4 @@
-# Digesting system command output with Python & Google's Open Sourced TextFSM
+# Digesting system command outputs with Python & Google's Open Sourced TextFSM
 
 ## Verify
 Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):

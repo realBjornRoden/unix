@@ -1,4 +1,4 @@
-# snapaix
+# Parsing IBM AIX SNAP .snap files to separate the respecive system command outputs
 
 ## Verify
 Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
