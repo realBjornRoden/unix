@@ -1,3 +1,0 @@
-['Node_Name', 'Partition_Name', 'Partition_Number', 'Type', 'Mode', 'Entitled_Capacity', 'Shared_Pool_ID', 'Variable_Capacity_Weight', 'Online_Virtual_CPUs', 'Online_Memory', 'Desired_Capacity', 'Desired_Virtual_CPUs', 'Desired_Memory', 'Maximum_Memory', 'Memory_Mode', 'Power_Saving_Mode']
-['VIOS8127', '780-4-VIO1', '2', 'Shared-SMT-4', 'Uncapped', '2.00', '0', '200', '4', '8192', '2.00', '4', '8192', '16384', 'Dedicated', 'Disabled']
-['VIOS8128', '780-4-VIO2', '2', 'Shared-SMT-4', 'Uncapped', '2.00', '0', '200', '4', '8192', '2.00', '4', '8192', '16384', 'Dedicated', 'Disabled']
