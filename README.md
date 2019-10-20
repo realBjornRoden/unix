@@ -4,7 +4,7 @@
    * [Shell and Utilities volume of IEEE POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)
 
 ## Proper Command Line SHELL
-* [ksh](https://en.wikipedia.org/wiki/KornShell)
+[ksh](https://en.wikipedia.org/wiki/KornShell)
    * Install KornShell on macosx
       ```
       $ brew install ksh
