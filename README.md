@@ -5,15 +5,15 @@
 
 ## Proper Command Line SHELL
 [ksh](https://en.wikipedia.org/wiki/KornShell)
-   * Install KornShell on macosx
+Install KornShell on macosx
       ```
       $ brew install ksh
       ```
-   * Enable ksh as default shell for the user
+Enable ksh as default shell for the user
       ```
       $ chsh -s /bin/ksh
       ```
-   * Configure `~/.profile`
+Configure `~/.profile`
       ```
       export "PS1="\${PWD#*/*/*/} \$ "
       export VISUAL=/usr/bin/vi
@@ -69,7 +69,7 @@ Configuring a minimalistic but most useful command line prompt
       code/unix $
       ```
 
-## VI editor
+## VI editor tips & trix
 [posix-vi](https://www.unix.com/man-page/posix/1/vi/) and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode). In interactive shell, `ESC-v` will enter into `$VISUAL` editor for the command line (save & exit will execute the edited command).<br>
 `.` - Repeat last command<br>
 `k` - Up one line<br>
