@@ -31,4 +31,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
    ```
    $ tail -1 lpar_190903.topas.cpu_all.merged.csv
    T0269,9/03/2019,23:04:41,CPU_ALL,55.87,16.82,1.13,26.18,240.00,
+
+   $ head -1 data3/lpar_190903.topas.cpu_all.txt    
+   CPU_ALL,CPU Total ,User%,Sys%,Wait%,Idle%,CPUs,
    ```
