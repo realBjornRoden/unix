@@ -1,7 +1,7 @@
 ## Proper Desktop Unix
-   * [darwin aka macosx](https://en.wikipedia.org/wiki/Darwin_(operating_system))
-   * [darwin-xnu kernel](https://github.com/apple/darwin-xnu/blob/master/README.md)
-   * [Shell and Utilities volume of IEEE POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)
+[darwin aka macosx](https://en.wikipedia.org/wiki/Darwin_(operating_system))<br>
+[darwin-xnu kernel](https://github.com/apple/darwin-xnu/blob/master/README.md)<br>
+[Shell and Utilities volume of IEEE POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)<br>
 
 ## Proper Command Line SHELL
 [ksh](https://en.wikipedia.org/wiki/KornShell)
@@ -19,6 +19,7 @@
       export VISUAL=/usr/bin/vi
       export EDITOR=/usr/bin/vi
       ```
+
 ## Proper visual EDITOR
 [vi](https://en.wikipedia.org/wiki/Vi) & [vim](https://en.wikipedia.org/wiki/Vim_(text_editor))
 
@@ -68,7 +69,8 @@ Configuring a minimalistic but most useful command line prompt
       code/unix $
       ```
 
-* VI editor ([posix-vi-man-page](https://www.unix.com/man-page/posix/1/vi/)) and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode). In interactive shell, `ESC-v` will enter into `$VISUAL` editor for the command line (save & exit will execute the edited command).<br>
+## VI editor
+[posix-vi](https://www.unix.com/man-page/posix/1/vi/) and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode). In interactive shell, `ESC-v` will enter into `$VISUAL` editor for the command line (save & exit will execute the edited command).<br>
 `.` - Repeat last command<br>
 `k` - Up one line<br>
 `j` - Down one line<br>
