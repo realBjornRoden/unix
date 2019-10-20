@@ -20,18 +20,17 @@
       export EDITOR=/usr/bin/vi
       ```
 ## Proper visual EDITOR
-* [vi](https://en.wikipedia.org/wiki/Vi) & [vim](https://en.wikipedia.org/wiki/Vim_(text_editor))
+[vi](https://en.wikipedia.org/wiki/Vi) & [vim](https://en.wikipedia.org/wiki/Vim_(text_editor))
 
 ## Proper TOOLS
-* [gnu tool packages](https://www.gnu.org/software/software.html)
+[gnu tool packages](https://www.gnu.org/software/software.html)
 
 ## How To
-
-* Copy-Paste text in Terminal
+Copy-Paste text in Terminal
    1. Select text to copy > CTRL-C > Put cursor at insertion point > CTRL-V, and the text is copy-pasted to the insertion point
    1. Put cursor at insertion point > Select text to copy, and then release the mouse/trackpad pressure > Select the marked text and "pull" it slightly until the colored circle with "+" sign appear (direction not important) > Release the mouse/trackpad pressure, and the text is copy-pasted to the insertion point
 
-* Setting a minimalistic but most useful command line prompt
+Configuring a minimalistic but most useful command line prompt
    * For workstation only, don't need username, hostname or wasting a separate line with color time and other non-important information at each and every ENTER
    * For directory structures, in a hierarchical organized filesystems, consider using Partial Relative Path display instead of Absolute Path display (when confused pwd)
       ```
