@@ -6,19 +6,19 @@
 ## Proper Command Line SHELL
 [ksh](https://en.wikipedia.org/wiki/KornShell)
 Install KornShell on macosx
-      ```
-      $ brew install ksh
-      ```
+```
+$ brew install ksh
+```
 Enable ksh as default shell for the user
-      ```
-      $ chsh -s /bin/ksh
-      ```
+```
+$ chsh -s /bin/ksh
+```
 Configure `~/.profile`
-      ```
-      export "PS1="\${PWD#*/*/*/} \$ "
-      export VISUAL=/usr/bin/vi
-      export EDITOR=/usr/bin/vi
-      ```
+```
+export "PS1="\${PWD#*/*/*/} \$ "
+export VISUAL=/usr/bin/vi
+export EDITOR=/usr/bin/vi
+```
 
 ## Proper visual EDITOR
 [vi](https://en.wikipedia.org/wiki/Vi) & [vim](https://en.wikipedia.org/wiki/Vim_(text_editor))
@@ -114,7 +114,7 @@ Configure `~/.profile`
 `:map` - Enter line command mode, and show editor key-action mapping<br>
 <br>
 
-   * VI optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
-      ```
-      set tabstop=4
-      ```
+* VI optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
+```
+set tabstop=4
+```
