@@ -18,7 +18,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 1. Ensure command output files are in a directory (such as default "data"), and there is a matching template (such as in default "templates")
 1. Setup and activate the Python virtualenv (first time also run `pip install textfsm`)
 1. Run the digestion script (HEADER=1 will print the column attribute names on the first line)
-   * Syntax: <strong>HEADER=1 python digest-data.py inputfilename templatefilename > outputfilename</strong>
+   * Syntax: <strong>python digest-data.py inputfilename templatefilename > outputfilename</strong>
    ```
    (sysdata) $ HEADER=1 python digest-data.py data/ibm-aix-lparstat-i.txt templates/ibm-aix-lparstat-i.textfsm
    ['Node_Name', 'Partition_Name', 'Partition_Number', 'Type', 'Mode', 'Entitled_Capacity', 'Shared_Pool_ID', 'Variable_Capacity_Weight', 'Online_Virtual_CPUs', 'Online_Memory', 'Desired_Capacity', 'Desired_Virtual_CPUs', 'Desired_Memory', 'Maximum_Memory', 'Memory_Mode', 'Power_Saving_Mode']
