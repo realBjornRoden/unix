@@ -1,0 +1,5 @@
+['Device_Name', 'World_Wide_Node_Name', 'World_Wide_Port_Name', 'Port_Speed_supported', 'Port_Speed_running', 'Port_FC_ID', 'Attention_Type', 'No_DMA_Resource_Count', 'No_Adapter_Elements_Count', 'No_Command_Resource_Count', 'Transmit_Statistics_Words', 'Receive_Statistics_Words']
+['fcs0', '0x20000120FA55E0EC', '0x10000090FA55E0EC', '8 GBIT', '8 GBIT', '0x0BDD80', 'Link Up', '0', '38', '0', '471232996864', '1008067399936']
+['fcs1', '0x20000120FA55E0ED', '0x10000090FA55E0ED', '8 GBIT', '8 GBIT', '0x0BDC80', 'Link Up', '0', '56', '0', '256559427328', '172622955520']
+['fcs2', '0x20000120FA55DE74', '0x10000090FA55DE74', '8 GBIT', '8 GBIT', '0x0BDB80', 'Link Up', '0', '0', '0', '510002023680', '81960810240']
+['fcs3', '0x20000120FA55DE75', '0x10000090FA55DE75', '8 GBIT', '8 GBIT', '0x0BDA80', 'Link Up', '0', '11', '0', '677410577152', '775436418304']

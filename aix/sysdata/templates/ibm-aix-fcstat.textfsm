@@ -31,6 +31,8 @@ Value Attention_Type (.*)
 Value No_DMA_Resource_Count (\d+)
 Value No_Adapter_Elements_Count (\d+)
 Value No_Command_Resource_Count (\d+)
+Value Transmit_Statistics_Words (\d+)
+Value Receive_Statistics_Words (\d+)
 
 Start 
 	^FIBRE CHANNEL STATISTICS REPORT:\s+${Device_Name}
@@ -40,6 +42,7 @@ Start
 	^Port Speed \(running\):\s+${Port_Speed_running}
 	^Port FC ID:\s+${Port_FC_ID}
 	^Attention Type:\s+${Attention_Type}
+	^\s+Transmit Statistics\s+Receive Statistics -> Transmit_Receive_Statistics
 	^FC SCSI Adapter Driver Information -> FC_SCSI_Adapter_Driver_Information
 	^IP over FC Traffic Statistics -> Record
 
@@ -47,3 +50,7 @@ FC_SCSI_Adapter_Driver_Information
 	^\s+No DMA Resource Count:\s+${No_DMA_Resource_Count}
 	^\s+No Adapter Elements Count:\s+${No_Adapter_Elements_Count}
 	^\s+No Command Resource Count:\s+${No_Command_Resource_Count} -> Start
+
+Transmit_Receive_Statistics
+	^Words:\s+${Transmit_Statistics_Words}\s+${Receive_Statistics_Words} -> Start
+
