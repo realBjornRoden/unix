@@ -109,7 +109,8 @@
 `:e /etc/motd` - Enter line command mode, and open the file /etc/motd into the editor<br>
 `:n` - Enter line command mode, and switch the visual editor to the next file (when editing multiple files)<br>
 `:e#` - Enter line command mode, and switch the visual editor to the previous file (when editing multiple files), toggling `:e#` flips the editor between two files<br>
-`:map` - Enter line command mode, and show key-action mapping<br>
+`:set` - Enter line command mode, and show editor configuration settings<br>
+`:map` - Enter line command mode, and show editor key-action mapping<br>
 <br>
 
    * VI optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
