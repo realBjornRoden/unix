@@ -61,6 +61,46 @@ RC=$(docker inspect --format='{{.Config.Image}}' $INSTANCE 2>/dev/null|grep -c $
 ###[[ $RC -gt 0 ]] || echo "REMOVED $INSTANCE of $IMAGE"
 ```
 
+### ELM hello.elm
+(in HTML browser; textbased with curl or lynx)
+```
+$ elm init          
+Hello! Elm projects always start with an elm.json file. I can create them!
+
+Now you may be wondering, what will be in this file? How do I add Elm files to
+my project? How do I see it in the browser? How will my code grow? Do I need
+more directories? What about tests? Etc.
+
+Check out <https://elm-lang.org/0.19.0/init> for all the answers!
+
+Knowing all that, would you like me to create an elm.json file now? [Y/n]: 
+Okay, I created it. Now read that link!
+
+$ elm make src/hello.elm 
+Starting downloads...
+
+  elm/url 1.0.0
+  elm/virtual-dom 1.0.2
+  elm/core 1.0.2
+  elm/time 1.0.0
+  elm/html 1.0.0
+  elm/browser 1.0.1
+  elm/json 1.1.3
+
+Dependencies ready!                
+Success! Compiled 1 module.                                          
+
+$ python3 -m http.server &
+
+$ curl -s http://0.0.0.0:8000/ | grep Hello
+var author$project$Main$main = elm$html$Html$text('Hello World');
+```
+Source
+```
+import Html exposing (text)
+main = text "Hello World"
+```
+
 ### Flask hello-flask.py
 (in HTML browser; textbased with curl or lynx)
 ```
