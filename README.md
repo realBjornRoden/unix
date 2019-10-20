@@ -27,11 +27,11 @@ Configure `~/.profile`
 [gnu tool packages](https://www.gnu.org/software/software.html)
 
 ## How To
-Copy-Paste text in Terminal
+<strong>Copy-Paste text in Terminal</strong>
    1. Select text to copy > CTRL-C > Put cursor at insertion point > CTRL-V, and the text is copy-pasted to the insertion point
    1. Put cursor at insertion point > Select text to copy, and then release the mouse/trackpad pressure > Select the marked text and "pull" it slightly until the colored circle with "+" sign appear (direction not important) > Release the mouse/trackpad pressure, and the text is copy-pasted to the insertion point
 
-Configuring a minimalistic but most useful command line prompt
+<strong>Configuring a minimalistic but most useful command line prompt</strong>
    * For workstation only, don't need username, hostname or wasting a separate line with color time and other non-important information at each and every ENTER
    * For directory structures, in a hierarchical organized filesystems, consider using Partial Relative Path display instead of Absolute Path display (when confused pwd)
       ```
