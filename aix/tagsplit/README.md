@@ -1,7 +1,7 @@
 # Splitting files based on their tag line using basic KornShell
-* ibm-aix-topas-csv output format (colloquially known as "NMON" format)
+* `ibm-aix-topas-csv` output format (colloquially known as "NMON" format)
    * one tag is ZZZZ which contain the timestamp sequential reference field
-   * all other tags contain reference to the timestamp timestamp sequential reference field
+   * all other tags contain reference to the timestamp sequential reference field
 
 ## Verify
 Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
