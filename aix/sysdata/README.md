@@ -1,4 +1,4 @@
-# sysdata with Python & Google's Open Sourced TextFSM
+# Digesting system command output with Python & Google's Open Sourced TextFSM
 
 ## Verify
 Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
@@ -17,7 +17,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 ## Perform
 1. Ensure command output files are in a directory (such as default "data"), and there is a matching template (such as in default "templates")
 1. Setup and activate the Python virtualenv (first time also run `pip install textfsm`)
-1. Run the digestion scripts (HEADER=1 will print the column attribute names on the first line)
+1. Run the digestion script (HEADER=1 will print the column attribute names on the first line)
    * Syntax: `HEADER=1 python digest-data.py inputfilename templatefilename > outputfilename`
    ```
    (sysdata) $ HEADER=1 python digest-data.py data/ibm-aix-lparstat-i.txt templates/ibm-aix-lparstat-i.textfsm
@@ -29,14 +29,8 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 ## Setup
 ```
 $ mkdir sysdata
-
 $ virtualenv sysdata
-
 $ source sysdata/bin/activate
-
 (sysdata) $ cd sysdata
-
-(sysdata) $ echo here you copy the files and directories to current directory
-
 (sysdata) sysdata $ pip install textfsm
 ```
