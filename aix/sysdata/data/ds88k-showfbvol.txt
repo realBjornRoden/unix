@@ -1,0 +1,304 @@
+Name               E8802_vios3
+ID                 0000
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            0
+extpool            P2
+exts               200
+cap (MiB)          204800
+captype            DS
+cap (2^30B)        200.0
+cap (10^9B)        -
+cap (blocks)       419430400
+volgrp             V65
+ranks              7
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                rotateexts
+reqcap (blocks)    419430400
+realextents        200
+virtualextents     0
+realcap (MiB)      204800
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000000000
+Name               test
+ID                 0001
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            0
+extpool            P0
+exts               10
+cap (MiB)          10240
+captype            DS
+cap (2^30B)        10.0
+cap (10^9B)        -
+cap (blocks)       20971520
+volgrp             -
+ranks              1
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                rotateexts
+reqcap (blocks)    20971520
+realextents        10
+virtualextents     0
+realcap (MiB)      10240
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000000001
+Name               E8802_vios3_
+ID                 0002
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            0
+extpool            P2
+exts               200
+cap (MiB)          204800
+captype            DS
+cap (2^30B)        200.0
+cap (10^9B)        -
+cap (blocks)       419430400
+volgrp             V65
+ranks              7
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                rotateexts
+reqcap (blocks)    419430400
+realextents        200
+virtualextents     0
+realcap (MiB)      204800
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000000002
+Name               E8801_VIOS2
+ID                 0003
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            0
+extpool            P2
+exts               100
+cap (MiB)          102400
+captype            DS
+cap (2^30B)        100.0
+cap (10^9B)        -
+cap (blocks)       209715200
+volgrp             V2
+ranks              7
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                rotateexts
+reqcap (blocks)    209715200
+realextents        100
+virtualextents     0
+realcap (MiB)      102400
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000000003
+Name               E8802_VIOS2
+ID                 0004
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            0
+extpool            P2
+exts               100
+cap (MiB)          102400
+captype            DS
+cap (2^30B)        100.0
+cap (10^9B)        -
+cap (blocks)       209715200
+volgrp             V7
+ranks              7
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                rotateexts
+reqcap (blocks)    209715200
+realextents        100
+virtualextents     0
+realcap (MiB)      102400
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000000004
+Name               E8801_VIOS1_
+ID                 0101
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            0
+extpool            P1
+exts               200
+cap (MiB)          204800
+captype            DS
+cap (2^30B)        200.0
+cap (10^9B)        -
+cap (blocks)       419430400
+volgrp             V66
+ranks              2
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                rotateexts
+reqcap (blocks)    419430400
+realextents        200
+virtualextents     0
+realcap (MiB)      204800
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000000101
+Name               E8801_VIOS2_B1
+ID                 7000
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            7
+extpool            P2
+exts               100
+cap (MiB)          102400
+captype            DS
+cap (2^30B)        100.0
+cap (10^9B)        -
+cap (blocks)       209715200
+volgrp             V2
+ranks              7
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                managed
+reqcap (blocks)    209715200
+realextents        100
+virtualextents     0
+realcap (MiB)      102400
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000007000
+Name               E8802_VIOS2_B1
+ID                 7100
+accstate           Online
+datastate          Normal
+configstate        Normal
+deviceMTM          2107-900
+datatype           FB 512
+addrgrp            7
+extpool            P3
+exts               100
+cap (MiB)          102400
+captype            DS
+cap (2^30B)        100.0
+cap (10^9B)        -
+cap (blocks)       209715200
+volgrp             V7
+ranks              4
+dbexts             0
+sam                Standard
+repcapalloc        -
+eam                managed
+reqcap (blocks)    209715200
+realextents        100
+virtualextents     0
+realcap (MiB)      102400
+migrating          0
+migratingcap (MiB) 0
+perfgrp            PG0
+migratingfrom      -
+resgrp             RG0
+tierassignstatus   Unknown
+tierassignerror    -
+tierassignorder    Unknown
+tierassigntarget   Unknown
+%tierassigned      0
+etmonpauseremain   -
+etmonitorreset     unknown
+GUID               6005076305FFD7CC0000000000007100
