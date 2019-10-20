@@ -113,7 +113,7 @@ export EDITOR=/usr/bin/vi
 `:map` - Enter line command mode, and show editor key-action mapping<br>
 <br>
 
-* VI optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
+* Optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
 ```
 set tabstop=4
 ```
