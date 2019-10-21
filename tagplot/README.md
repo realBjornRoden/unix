@@ -11,7 +11,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 * [runplot.sh](runplot.sh)
 
 ## Directories
-* data directory
+* [data](data) directory
 
 ## Sample
 <img src="https://github.com/realBjornRoden/unix/blob/master/tagplot/lpar_190903.plot-0.png" />
