@@ -1,4 +1,4 @@
-# Plotting lines using basic POSIX Shell and Gnuplot
+# Plotting timeseries and descriptive statistics using basic POSIX Shell and Gnuplot
 * See tagsplit for input format
 
 ## Verify
