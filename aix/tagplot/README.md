@@ -14,4 +14,4 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 * data directory
 
 ## Sample
-<img src="https://github.com/realBjornRoden/unix/blob/master/tagplot/ScreenShot.png"/>
+<img src="https://github.com/realBjornRoden/unix/blob/master/tagplot/data/ScreenShot.png"/>
