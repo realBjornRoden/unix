@@ -32,7 +32,7 @@ try: from tkinter import ttk
 except: sys.exit("***ENOIMPORT")
 from tkinter import font
 
-
+# --------------------------------------------------------------------------------
 # CALLBACK FUNCTIONS
 #
 def cbQuit(event=""):
