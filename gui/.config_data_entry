@@ -1,0 +1,24 @@
+{
+	"config": {
+		"id": "data_entry_window",
+		"title": "DATA ENTRY",
+		"height": 500,
+		"width": 400,
+		"fg": "#000000",
+		"bg": "#FFFFFF",
+		"sections": [
+				{"label": "_section1", "text": "Data Entry Space", "fg": "#000000", "font": "\"Helvetica Neue\" 22"}
+		],
+		"labels": [
+				{"label": "_label1", "text": "Enter Data 1", "width": "20", "fg": "#000000", "bg": "#FFFFFF", "font": "\"Helvetica Neue\" 12"},
+				{"label": "_label2", "text": "Enter Data 2", "width": "20", "fg": "#000000", "bg": "#FFFFFF", "font": "\"Helvetica Neue\" 12"},
+				{"label": "_label3", "text": "Enter Data 3", "width": "20", "fg": "#000000", "bg": "#FFFFFF", "font": "\"Helvetica Neue\" 12"}
+		],
+		"entries": [
+				{"entry": "_entry1", "width": "20", "fg": "#000000", "bg": "#FFFFFF", "font": "\"Helvetica Neue\" 12"},
+				{"entry": "_entry2", "width": "20", "fg": "#000000", "bg": "#FFFFFF", "font": "\"Helvetica Neue\" 12"},
+				{"entry": "_entry3", "width": "20", "fg": "#000000", "bg": "#FFFFFF", "font": "\"Helvetica Neue\" 12"}
+		],
+		"status": {"text": "Ready...", "fg": "#000000", "bg": "#FFFFFF", "font": "\"Helvetica Neue\" 12"}
+	}
+}
