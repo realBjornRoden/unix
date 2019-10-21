@@ -1,4 +1,4 @@
-# Declarative dynamic data entry window with Python Tkinter & JSON
+# Declarative data entry window with JSON, Python & Tkinter
 <i>in progress</i>
 
 ## Verify
