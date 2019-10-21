@@ -1,5 +1,5 @@
 #
-# data_entry.py
+# data_entry_tk.py
 #
 # Copyright (c) 2019 B.Roden
 #
@@ -21,7 +21,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-
 import os,sys,getopt
 import json
 from platform import system as platform
@@ -33,11 +32,8 @@ try: from tkinter import ttk
 except: sys.exit("***ENOIMPORT")
 from tkinter import font
 
-# DEFINE
-#
-debug=0
 
-# FUNCTIONS
+# CALLBACK FUNCTIONS
 #
 def cbQuit(event=""):
  if event:
@@ -45,15 +41,12 @@ def cbQuit(event=""):
  root.quit()
  sys.exit("QUIT")
 
-
 def cbOp(_op_="noop"):
  print("[" + _op_ + "]")
  statusBar['text'] = _op_
-
  if _op_ == "Quit":
   root.quit()
   sys.exit(_op_)
-
  if _op_ == "Save":
   data = ""
   for k in j['config']['entries']: 
@@ -61,7 +54,6 @@ def cbOp(_op_="noop"):
   print("[" + data + "]")
   statusBar['text'] = data
  
-
 def cbSubmit():
  data = ""
  for k in j['config']['entries']: 
@@ -70,7 +62,7 @@ def cbSubmit():
  statusBar['text'] = data
 
 # --------------------------------------------------------------------------------
-# MAIN later do ==>> if __name__ == '__main__':
+# MAIN
 
 #
 # READ JSON FORMATTED CONFIG FILE
@@ -85,7 +77,7 @@ try:
  except: sys.exit("***ENOLOAD [%s]" % (_config))
 except: sys.exit("***ENOCONFIG [%s]" % (_config))
 
-#
+# --------------------------------------------------------------------------------
 # WINDOW
 #
 root = tk.Tk()
@@ -95,7 +87,7 @@ _height = int(j['config']['height'])
 _width = int(j['config']['width'])
 root.geometry("%dx%d+0+0" % (_width, _height))
 
-#
+# --------------------------------------------------------------------------------
 # Darwin Specials...
 #
 root.bind("<Escape>", cbQuit) # Hit ESC-key to exit
@@ -104,8 +96,7 @@ if platform() == 'Darwin': # Running an app in Terminal keeps focus in the Darwi
   os.system('''/usr/bin/osascript -e 'tell app "Finder" to set frontmost of process "Python" to true' ''')
  except: pass # Wont work under virtualenv
 
-
-#
+# --------------------------------------------------------------------------------
 # MENU BAR
 #
 menuBar = tk.Menu(root)
@@ -121,7 +112,7 @@ menuBar.add_cascade(label="File", menu=fileMenu)
 menuBar.add_cascade(label="Edit", menu=editMenu)
 root.config(menu=menuBar)
 
-#
+# --------------------------------------------------------------------------------
 # FRAME
 #
 frame = tk.Frame(root)
@@ -134,7 +125,7 @@ top_line['text'] = j['config']['sections'][0]['text']
 top_line['font'] = j['config']['sections'][0]['font']
 top_line.grid(row=_row,columnspan=3,sticky='n')
 
-#
+# --------------------------------------------------------------------------------
 # LABELS
 #
 _row = 2
@@ -151,7 +142,7 @@ for k in j['config']['labels']:
  globals()[k['label']].grid(row=_row,column=_col,sticky='w')
  _row=_row+1
 
-#
+# --------------------------------------------------------------------------------
 # ENTRY
 #
 _row = 2
@@ -166,7 +157,7 @@ for k in j['config']['entries']:
  globals()[k['entry']].grid(row=_row,column=_col,sticky='w')
  _row=_row+1
 
-#
+# --------------------------------------------------------------------------------
 # STATUS BAR
 #
 statusBar = tk.Label(root, text="processing", bd=1, relief='ridge', anchor='w')
@@ -174,4 +165,5 @@ statusBar.pack(side='bottom', fill='x')
 statusBar['text'] = j['config']['status']['text']
 statusBar['font'] = j['config']['status']['font']
 
+# --------------------------------------------------------------------------------
 root.mainloop()
