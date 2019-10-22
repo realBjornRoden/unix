@@ -1,4 +1,4 @@
-# Digesting output from connection detaileds with `awk` and generating multi-node graph with <strong>DOT</strong> language
+# Digesting output from virtual fibre channel connection details with `awk` and generating multi-node graph with <strong>DOT</strong> language
 * Output from IBM PowerVM (Virtual I/O Server) command `lsmap -all npiv`
 * [DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language))
 
