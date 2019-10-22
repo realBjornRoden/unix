@@ -25,4 +25,4 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
    ```
 
 ## Sample
-<img src="https://github.com/realBjornRoden/unix/blob/master/parseout/vfcmap-vios2.png" />
+<img src="https://github.com/realBjornRoden/unix/blob/master/parseout/data/vfcmap-vios2.png" />
