@@ -4,7 +4,7 @@
 ## Parsers
 
 * Output from IBM PowerVM (Virtual I/O Server) Virtual Fibre Channel Adapter (VFC w/NPIV)
-* [vfc](vfc) directory
+   * [vfc](vfc) directory
 
 * Output from IBM PowerVM (Virtual I/O Server) Shared Ethernet Adapter (SEA)
-* [sea](sea) directory
+   * [sea](sea) directory
