@@ -44,12 +44,12 @@ TMP2=2-$$.tmp
 
 getseavirt() {
 	NODE=$1
-	echo "***Processing SEA VIRTUAL for NODE [$NODE]"
+	[[ -z $DEBUG ]] || echo "***Processing SEA VIRTUAL for NODE [$NODE]"
 }
 
 getsea() {
 	NODE=$1
-	echo "***Processing SEA for NODE [$NODE]"
+	[[ -z $DEBUG ]] || echo "***Processing SEA for NODE [$NODE]"
 
 	awk 'BEGIN{found=0;}
 
@@ -72,7 +72,7 @@ getsea() {
 getlagg()
 {
 	NODE=$1
-	echo "***Processing LAGG for NODE [$NODE]"
+	[[ -z $DEBUG ]] || echo "***Processing LAGG for NODE [$NODE]"
 
 	while read sea ctl_chan pvid_adapter real_adapter virt_adapters;do
 
@@ -102,7 +102,7 @@ getlagg $NODE
 
 while read sea ctl_chan pvid_adapter real_adapter virt_adapters;do
 
-	echo "***Processing DOT on NODE [$NODE]"
+	[[ -z $DEBUG ]] || echo "***Processing DOT on NODE [$NODE]"
 
 	awk '$1~/'$real_adapter'/{
 		NODE=VIOS
@@ -152,8 +152,10 @@ done < $TMP1
 [[ -f $TMP2 ]] && rm -f $TMP2
 
 for i in $(ls $DIR/sea*.gv);do
+	[[ -z $DEBUG ]] || echo "***Processing DOT to PNG on NODE [$NODE]"
 	PNGOUT=${i%%.*}.png
 	dot -v -Tpng -o $PNGOUT $i 2>/dev/null
 	[[ $? -eq 0 ]] || { echo "***EDOTFAIL";exit 1; }
+	echo $PNGOUT
 	rm -f $i
 done

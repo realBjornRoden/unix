@@ -21,7 +21,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 ## Usage
    ```
    $ ./digest-lsattr-sea.sh data/lsattr-Elent.txt vios1
-   vfcmap-vios2.png vfcmap-vios2.txt vios2.gv
+   data/sea_vios1_ent37.png
    ```
 
 ## Sample
