@@ -16,15 +16,15 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 
 ## Process
 1. Sign up as develper with [tripit.com](tripit.com)
-1. Get xml data from Tripit for the trips -- [extract-tripit.sh]extract-tripit.sh)
+1. Get xml data from Tripit for the trips
    ```
    $ ./extract-tripit.sh username@fqdn abc123
    ```
-1. Parse the xml into csv -- [digest-tripit.py](digest-tripit.py)
+1. Parse the xml into csv
    ```
    $ python3 digest-tripit.py data/sample.xml >data/travel.csv
    ```
-1. For each trip create a month file with record data cal display -- [format-dates.sh](format-dates.sh)
+1. For each trip create a month file with record data cal display
    ```
    $ ./format-dates.sh data/travel.csv
    ```
