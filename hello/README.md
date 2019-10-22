@@ -12,7 +12,7 @@ Source
 int main(){printf("Hello World\n");}
 ```
 
-### C++ hello.cpp
+### C++ [hello.cpp](hello.cpp)
 ```
 $ c++ -o hello hello.cpp
 $ ./hello
@@ -24,7 +24,7 @@ Source
 int main() { std::cout << "Hello World\n"; }
 ```
 
-### COBOL hello.cob
+### COBOL [hello.cob](hello.cob)
 ```
 $ cobc -x hello.cob
 $ ./hello
@@ -40,7 +40,7 @@ Source (original format)
     STOP RUN.
 ```
 
-### Dockers hello.dockers
+### Dockers [hello.dockers](hello.dockers)
 ```
 $ sh hello.dockers 
 Password:
@@ -61,7 +61,7 @@ RC=$(docker inspect --format='{{.Config.Image}}' $INSTANCE 2>/dev/null|grep -c $
 ###[[ $RC -gt 0 ]] || echo "REMOVED $INSTANCE of $IMAGE"
 ```
 
-### ELM hello.elm
+### ELM [hello.elm](hello.elm)
 (in HTML browser; textbased with curl or lynx)
 ```
 $ elm init          
@@ -101,7 +101,7 @@ import Html exposing (text)
 main = text "Hello World"
 ```
 
-### Flask hello-flask.py
+### Flask [hello-flask.py](hello-flask.py)
 (in HTML browser; textbased with curl or lynx)
 ```
 $ env FLASK_APP=hello-flask.py flask run & 
@@ -122,7 +122,7 @@ def hello():
     return "Hello World"
 ```
 
-### Fortran hello.f
+### Fortran [hello.f](hello.f)
 ```
 $ gfortran -ffree-form hello.f -o hello
 $ ./hello
@@ -154,7 +154,7 @@ Source (ancient format)
         END
 ```
 
-### Golang hello.go
+### Golang [hello.go](hello.go)
 ```
 $ go run hello.go
 Hello World
@@ -168,7 +168,7 @@ func main() {
 }
 ```
 
-### Haskell hello.hs
+### Haskell [hello.hs](hello.hs)
 ```
 $ ghc hello.hs
 [1 of 1] Compiling Main             ( hello.hs, hello.o )
@@ -182,7 +182,7 @@ Source
 main = putStrLn "Hello World"
 ```
 
-### HTML hello.html
+### HTML [hello.html](hello.html)
 (in HTML browser; textbased with curl/lynx)
 ```
 $ python3 -m http.server &
@@ -196,7 +196,7 @@ Source
 </html>
 ```
 
-### JAVA hello.java
+### JAVA [hello.java](hello.java)
 ```
 $ java hello.java
 Hello World
@@ -215,7 +215,7 @@ class hello {
 }
 ```
 
-### JavaScript hello.js
+### JavaScript [hello.js](hello.js)
 (in NODE)
 ```
 $ node hello.js
@@ -226,7 +226,7 @@ Source
 console.log("Hello World");
 ```
 
-### Pascal hello.p
+### Pascal [hello.p](hello.p)
 ```
 $ fpc hello.p
 Free Pascal Compiler version 3.0.4 [2018/09/30] for x86_64
@@ -248,7 +248,7 @@ begin
 end.
 ```
 
-### PHP hello.php
+### PHP [hello.php](hello.php)
 (in HTML browser; http server with php module)
 ```
 $ curl http://127.0.0.1:80/hello.php; echo
@@ -262,7 +262,7 @@ Source
 <body> <?php echo '<p>Hello World</p>'; ?> </body> </html>
 ```
 
-### Python hello.py
+### Python [hello.py](hello.py)
 ```
 $ python hello.py
 Hello World
@@ -275,7 +275,7 @@ Source
 print("Hello World")
 ```
 
-### Ruby hello.rb
+### Ruby [hello.rb](hello.rb)
 ```
 $ ruby hello.rb
 Hello World
@@ -285,7 +285,7 @@ Source
 puts 'Hello World'
 ```
 
-### Shell hello.sh
+### Shell [hello.sh](hello.sh)
 (Unix Bourne style shell and its derivaties, such as Korn, Bash, Z, etc)
 ```
 $ sh hello.sh
@@ -307,7 +307,7 @@ Source
 echo "Hello World"
 ```
 
-### SVG hello.svg
+### SVG [hello.svg](hello.svg)
 (in HTML browser)
 Source
 ```
@@ -316,7 +316,7 @@ Source
 </svg>
 ```
 
-### Vala hello.vala
+### Vala [hello.vala](hello.vala)
 ```
 $ valac hello.vala
 $ ./hello
