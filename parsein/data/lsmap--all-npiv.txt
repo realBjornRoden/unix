@@ -1,0 +1,193 @@
+# lsmap -all -npiv
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost0      U9179.MHD.210A1EV-V2-C606              15 ADCB0250_FCI_R AIX
+
+Status:LOGGED_IN
+FC name:fcs0                    FC loc code:U2C4E.001.DXBW438-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V15-C606
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost1      U9179.MHD.210A1EV-V2-C582               4 ABCD8062_DataA AIX
+
+Status:LOGGED_IN
+FC name:fcs0                    FC loc code:U2C4E.001.DXBW438-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V4-C582
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost2      U9179.MHD.210A1EV-V2-C594               9 ABCD8109_ProCa AIX
+
+Status:LOGGED_IN
+FC name:fcs0                    FC loc code:U2C4E.001.DXBW438-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V9-C594
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost3      U9179.MHD.210A1EV-V2-C592               8 ABCD8107_ProCa AIX
+
+Status:LOGGED_IN
+FC name:fcs0                    FC loc code:U2C4E.001.DXBW438-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V8-C592
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost4      U9179.MHD.210A1EV-V2-C584               3 Adcb0418_TFSAS AIX
+
+Status:LOGGED_IN
+FC name:fcs0                    FC loc code:U2C4E.001.DXBW438-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs3            VFC client DRC:U9179.MHD.210A1EV-V3-C584
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost5      U9179.MHD.210A1EV-V2-C586               5 ABCD8091_KonyD AIX
+
+Status:LOGGED_IN
+FC name:fcs0                    FC loc code:U2C4E.001.DXBW438-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs3            VFC client DRC:U9179.MHD.210A1EV-V5-C586
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost6      U9179.MHD.210A1EV-V2-C588               6 ABCD8099_Golde AIX
+
+Status:LOGGED_IN
+FC name:fcs1                    FC loc code:U2C4E.001.DXBW438-P2-C5-T2
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs5            VFC client DRC:U9179.MHD.210A1EV-V6-C588
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost7      U9179.MHD.210A1EV-V2-C608              16 ABCD8136_PFM_D AIX
+
+Status:LOGGED_IN
+FC name:fcs1                    FC loc code:U2C4E.001.DXBW438-P2-C5-T2
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs3            VFC client DRC:U9179.MHD.210A1EV-V16-C608
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost8      U9179.MHD.210A1EV-V2-C602              13 ABCD8122_EDMS_ AIX
+
+Status:LOGGED_IN
+FC name:fcs1                    FC loc code:U2C4E.001.DXBW438-P2-C5-T2
+Ports logged in:11
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V13-C602
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost9      U9179.MHD.210A1EV-V2-C604              14 ABCD8124_EDMS_ AIX
+
+Status:LOGGED_IN
+FC name:fcs1                    FC loc code:U2C4E.001.DXBW438-P2-C5-T2
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs3            VFC client DRC:U9179.MHD.210A1EV-V14-C604
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost10     U9179.MHD.210A1EV-V2-C596              10 ABCD8111_CRMwe AIX
+
+Status:LOGGED_IN
+FC name:fcs2                    FC loc code:U2C4E.001.DXBW866-P2-C5-T1
+Ports logged in:11
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V10-C596
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost11     U9179.MHD.210A1EV-V2-C598              11 ABCD8113_CRMgw AIX
+
+Status:LOGGED_IN
+FC name:fcs2                    FC loc code:U2C4E.001.DXBW866-P2-C5-T1
+Ports logged in:11
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V11-C598
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost12     U9179.MHD.210A1EV-V2-C600              12 ABCD8115_CRMap AIX
+
+Status:LOGGED_IN
+FC name:fcs2                    FC loc code:U2C4E.001.DXBW866-P2-C5-T1
+Ports logged in:11
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V12-C600
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost13     U9179.MHD.210A1EV-V2-C590               7                 
+
+Status:NOT_LOGGED_IN
+FC name:fcs2                    FC loc code:U2C4E.001.DXBW866-P2-C5-T1
+Ports logged in:0
+Flags:4<NOT_LOGGED>
+VFC client name:                VFC client DRC:
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost14     U9179.MHD.210A1EV-V2-C610              17 abcd0706_FCIDB AIX
+
+Status:LOGGED_IN
+FC name:fcs3                    FC loc code:U2C4E.001.DXBW866-P2-C5-T2
+Ports logged in:10
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V17-C610
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost15     U9179.MHD.210A1EV-V2-C612              18 abcd0710_CoreD AIX
+
+Status:LOGGED_IN
+FC name:fcs3                    FC loc code:U2C4E.001.DXBW866-P2-C5-T2
+Ports logged in:10
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs1            VFC client DRC:U9179.MHD.210A1EV-V18-C612
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost16     U9179.MHD.210A1EV-V2-C614              19 abcd0322-IBAPP Linux
+
+Status:LOGGED_IN
+FC name:fcs2                    FC loc code:U2C4E.001.DXBW866-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:host3           VFC client DRC:U9179.MHD.210A1EV-V19-C614
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost17     U9179.MHD.210A1EV-V2-C616              20 ABCD8006_MBApp Linux
+
+Status:LOGGED_IN
+FC name:fcs2                    FC loc code:U2C4E.001.DXBW866-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:host1           VFC client DRC:U9179.MHD.210A1EV-V20-C616
+
+Name          Physloc                            ClntID ClntName       ClntOS 
+------------- ---------------------------------- ------ -------------- -------
+vfchost18     U9179.MHD.210A1EV-V2-C618              21 ABCD8141_GFSAp AIX
+
+Status:LOGGED_IN
+FC name:fcs2                    FC loc code:U2C4E.001.DXBW866-P2-C5-T1
+Ports logged in:9
+Flags:a<LOGGED_IN,STRIP_MERGE>
+VFC client name:fcs5            VFC client DRC:U9179.MHD.210A1EV-V21-C618
+
+==== EXITED with rc 0 ====
+==== END $VIOCLI lsmap -all -npiv Mon Mar 16 15:10:43 GST 2015 ====
