@@ -1,6 +1,6 @@
 # Hello World
 
-### C hello.c
+### C [hello.c](hello.c)
 ```
 $ cc -o hello hello.c
 $ ./hello
