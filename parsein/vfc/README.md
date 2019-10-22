@@ -12,8 +12,8 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 * [digest-lsmap-npiv.sh](digest-lsmap-npiv.sh)
 
 ## Output
-* vfcmap-NODE.txt
-* vfcmap-NODE.png
+* `vfcmap-NODE.txt`
+* `vfcmap-NODE.png`
 
 ## Directories
 * [data](data) directory

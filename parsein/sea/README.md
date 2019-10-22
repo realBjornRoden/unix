@@ -12,8 +12,8 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 * [digest-lsattr-sea.sh](digest-lsattr-sea.sh)
 
 ## Output
-* entmap_NODE_SEA.txt
-* sea_NODE_SEA.png
+* `entmap_NODE_SEA.txt`
+* `sea_NODE_SEA.png`
 
 ## Directories
 * [data](data) directory
