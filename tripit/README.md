@@ -22,12 +22,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
    ```
 1. Parse the xml into csv -- [digest-tripit.py](digest-tripit.py)
    ```
-   $ python3 digest-tripit.py data/sample.xml | tee data/travel.csv
-   271880435 ; Cairo, Egypt, June 2019 ; 2019-06-25 ; 2019-07-12
-   268615269 ; Gaborone, Botswana, May 2019 ; 2019-05-14 ; 2019-05-23
-   268613411 ; Lusaka, Zambia, May 2019 ; 2019-05-28 ; 2019-05-30
-   268613317 ; Muscat, Oman, May 2019 ; 2019-05-30 ; 2019-05-30
-   259112837 ; San Francisco, CA, May 2019 ; 2019-05-06 ; 2019-05-12
+   $ python3 digest-tripit.py data/sample.xml >data/travel.csv
    ```
 1. For each trip create a month file with record data cal display -- [format-dates.sh](format-dates.sh)
    ```
