@@ -1,5 +1,6 @@
-# Digesting output from connection detaileds with `awk` and generating multi-node graph with <strong>dot</strong>
+# Digesting output from connection detaileds with `awk` and generating multi-node graph with <strong>DOT</strong> language
 * Output from IBM PowerVM (Virtual I/O Server) command `lsmap -all npiv`
+* [DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language))
 
 ## Verify
 Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
