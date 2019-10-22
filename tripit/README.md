@@ -1,5 +1,4 @@
-# Plotting timeseries and descriptive statistics using basic POSIX Shell and Gnuplot
-* Digesting Tripit.com traveler trip data
+# Digesting Tripit.com traveler trip data to analyze days of week of respective travel
 
 ## Verify
 Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
