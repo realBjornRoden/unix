@@ -14,7 +14,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 ## Directories
 * [data](data) directory
 
-## Process
+## Usage
 1. Sign up as develper with [tripit.com](tripit.com)
 1. Get xml data from Tripit for the trips
    ```

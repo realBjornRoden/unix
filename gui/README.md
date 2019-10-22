@@ -11,7 +11,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 * Python [data_entry_tk.py](data_entry_tk.py)
 * JSON   [.config_data_entry_tk](.config_data_entry_tk)
 
-## Run
+## Usage
 ```
 $ python data_entry_tk.py
 ```
