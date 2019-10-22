@@ -8,7 +8,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 
 ## Files
 * [digest-tripit.py](digest-tripit.py)
-* [extract-tripit.sh]extract-tripit.sh)
+* [extract-tripit.sh](extract-tripit.sh)
 * [format-dates.sh](format-dates.sh)
 
 ## Directories
