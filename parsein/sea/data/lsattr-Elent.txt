@@ -1,0 +1,2269 @@
+# lsattr -El 
+#### Network adapter: ent0 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0218000        Bus memory address 0                             False
+busintr         20160             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent1 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0210000        Bus memory address 0                             False
+busintr         20161             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent2 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0208000        Bus memory address 0                             False
+busintr         20162             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent3 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0200000        Bus memory address 0                             False
+busintr         20163             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent4 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0218000        Bus memory address 0                             False
+busintr         20416             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent5 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0210000        Bus memory address 0                             False
+busintr         20417             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent6 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0208000        Bus memory address 0                             False
+busintr         20418             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent7 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0200000        Bus memory address 0                             False
+busintr         20419             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent8 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0218000        Bus memory address 0                             False
+busintr         22208             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent9 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0210000        Bus memory address 0                             False
+busintr         22209             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent10 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0208000        Bus memory address 0                             False
+busintr         22210             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent11 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0200000        Bus memory address 0                             False
+busintr         22211             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent12 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0218000        Bus memory address 0                             False
+busintr         7872              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent13 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0210000        Bus memory address 0                             False
+busintr         7873              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent14 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0208000        Bus memory address 0                             False
+busintr         7874              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent15 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0200000        Bus memory address 0                             False
+busintr         7875              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent16 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0218000        Bus memory address 0                             False
+busintr         8128              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent17 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0210000        Bus memory address 0                             False
+busintr         8129              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent18 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0208000        Bus memory address 0                             False
+busintr         8130              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent19 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0200000        Bus memory address 0                             False
+busintr         8131              Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent20 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0218000        Bus memory address 0                             False
+busintr         14016             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent21 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0210000        Bus memory address 0                             False
+busintr         14017             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent22 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0208000        Bus memory address 0                             False
+busintr         14018             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent23 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xc0200000        Bus memory address 0                             False
+busintr         14019             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent24 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0218000        Bus memory address 0                             False
+busintr         14272             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent25 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0210000        Bus memory address 0                             False
+busintr         14273             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent26 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0208000        Bus memory address 0                             False
+busintr         14274             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent27 ####
+alt_addr        0x000000000000    Alternate Ethernet address                       True
+bar0            0xf0200000        Bus memory address 0                             False
+busintr         14275             Bus interrupt level                              False
+chksum_offload  yes               Request checksum offload                         True
+cksum_ip        yes               Request IP checksum offload                      True
+cksum_rx        yes               Request Rx checksum offload                      True
+cksum_tcp       yes               Request TCP checksum offload                     True
+cksum_udp       yes               Request UDP checksum offload                     True
+delay_open      no                Delay open until link state is known             True
+eeh_cfgsp_delay 999               EEH config space delay (miliseconds)             False
+eeh_reset_delay 5                 EEH reset delay (seconds)                        False
+eeh_reset_type  fundamental_hot   EEH reset type                                   False
+flow_ctrl       yes               Request flow control                             True
+flow_ctrl_rx    yes               Receive pause frames                             True
+flow_ctrl_tx    yes               Transmit pause frames                            True
+intr_max        16                Maximum number of interrupts to allocate         False
+intr_priority   3                 Interrupt priority                               False
+intr_time       50                Interrupt event coalesce timer (microseconds)    True
+ipv6_offload    yes               Request IPV6 stateless offloads                  True
+jumbo_frames    no                Request jumbo frames                             True
+jumbo_size      9014              Requested jumbo frame size                       False
+large_receive   yes               Request Rx TCP segment aggregation               True
+large_send      yes               Request Tx TCP segment offload                   True
+link_delay_mode all               Link status delay mode                           True
+link_delay_time 5                 Link status delay timer (seconds)                True
+link_reset      yes               Perform link reset during suspend                False
+lro_threshold   2                 Rx TCP segment aggregation minimum pkt threshold True
+media_speed     10000_Full_Duplex Requested Media speed                            True
+mgt_comp_cnt    1                 MGT completions before hardware notification     False
+mgt_comp_limit  1                 Max MGT completions processed per RSP event      False
+mgt_max_events  512               Management queue maximum event count             True
+mss_min_mode    adjust            Tx large send minimum MSS mode                   True
+mss_min_size    224               Tx large send minimum MSS size                   False
+poll_max_events 1                 Max poll events that can be received             False
+queues_mgt      1                 Requested number of management queues            False
+queues_poll     1                 Requested number of poll queues                  False
+queues_rx       3                 Requested number of Rx queues                    True
+queues_tx       2                 Requested number of Tx queues                    True
+rsp_comp_cnt    0                 RSP completions before hardware notification     False
+rsp_limit       1000              Response queue entries processed per interrupt   True
+rsp_max_events  0                 Max RSP events that can be received              False
+rx_buffer_low   50                Percentage where RX buffers is considered low    True
+rx_chain        16                Rx packets chained for stack processing          True
+rx_comp_limit   128               Receive completion limit                         True
+rx_max_pkts     1024              Rx queue maximum packet count                    True
+rx_notify_cnt   128               Rx packets per Rx complete notification          True
+rx_send_cnt     0                 Max Rx buffer writes before hardware send call   False
+systrc_enable   no                Enable config debug tracing                      True
+timer_eeh       0                 EEH event poll timer (seconds)                   True
+timer_error     1                 Error poll timer (seconds)                       True
+timer_link      0                 Link poll timer (seconds)                        True
+timer_stats     0                 Statistics poll timer (seconds)                  False
+tx_chain        8                 Tx packets chained for adapter processing        True
+tx_comp_cnt     1                 Tx completions before hardware notification      False
+tx_comp_limit   1                 Tx completions processed per event               False
+tx_discovery    0                 Response events per Tx completion discovery      False
+tx_free_delay   no                Delay free of Tx packet mbufs                    True
+tx_limit        1024              Tx packets sent per transmit thread              True
+tx_max_pkts     1024              Tx queue maximum packet count                    True
+tx_notify_cnt   64                Tx completions before hardware notification      True
+tx_swq_max_pkts 8192              Software Tx queue maximum packet count           True
+use_alt_addr    no                Request alternate Ethernet address               True
+vpd_missing     no                VPD not present                                  False
+############
+
+#### Network adapter: ent28 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+buf_mode        min            Receive Buffer Mode                        True
+chksum_offload  yes            Enable Checksum Offload for IPv4 packets   True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+ipv6_offload    no             Enable Checksum Offload for IPv6 packets   True
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    64             Maximum Huge Buffers                       True
+max_buf_large   64             Maximum Large Buffers                      True
+max_buf_medium  256            Maximum Medium Buffers                     True
+max_buf_small   2048           Maximum Small Buffers                      True
+max_buf_tiny    2048           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    24             Minimum Huge Buffers                       True
+min_buf_large   24             Minimum Large Buffers                      True
+min_buf_medium  128            Minimum Medium Buffers                     True
+min_buf_small   512            Minimum Small Buffers                      True
+min_buf_tiny    512            Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent29 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+buf_mode        min            Receive Buffer Mode                        True
+chksum_offload  yes            Enable Checksum Offload for IPv4 packets   True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+ipv6_offload    no             Enable Checksum Offload for IPv6 packets   True
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    64             Maximum Huge Buffers                       True
+max_buf_large   64             Maximum Large Buffers                      True
+max_buf_medium  256            Maximum Medium Buffers                     True
+max_buf_small   2048           Maximum Small Buffers                      True
+max_buf_tiny    2048           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    24             Minimum Huge Buffers                       True
+min_buf_large   24             Minimum Large Buffers                      True
+min_buf_medium  128            Minimum Medium Buffers                     True
+min_buf_small   512            Minimum Small Buffers                      True
+min_buf_tiny    512            Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent30 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+buf_mode        min            Receive Buffer Mode                        True
+chksum_offload  yes            Enable Checksum Offload for IPv4 packets   True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+ipv6_offload    no             Enable Checksum Offload for IPv6 packets   True
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    64             Maximum Huge Buffers                       True
+max_buf_large   64             Maximum Large Buffers                      True
+max_buf_medium  256            Maximum Medium Buffers                     True
+max_buf_small   2048           Maximum Small Buffers                      True
+max_buf_tiny    2048           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    24             Minimum Huge Buffers                       True
+min_buf_large   24             Minimum Large Buffers                      True
+min_buf_medium  128            Minimum Medium Buffers                     True
+min_buf_small   512            Minimum Small Buffers                      True
+min_buf_tiny    512            Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent31 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+buf_mode        min            Receive Buffer Mode                        True
+chksum_offload  yes            Enable Checksum Offload for IPv4 packets   True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+ipv6_offload    no             Enable Checksum Offload for IPv6 packets   True
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    64             Maximum Huge Buffers                       True
+max_buf_large   64             Maximum Large Buffers                      True
+max_buf_medium  256            Maximum Medium Buffers                     True
+max_buf_small   2048           Maximum Small Buffers                      True
+max_buf_tiny    2048           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    24             Minimum Huge Buffers                       True
+min_buf_large   24             Minimum Large Buffers                      True
+min_buf_medium  128            Minimum Medium Buffers                     True
+min_buf_small   512            Minimum Small Buffers                      True
+min_buf_tiny    512            Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent32 ####
+adapter_names   ent0,ent12     EtherChannel Adapters                           True
+alt_addr        0x000000000000 Alternate EtherChannel Address                  True
+auto_recovery   yes            Enable automatic recovery after failover        True
+backup_adapter  NONE           Adapter used when whole channel fails           True
+hash_mode       default        Determines how outgoing adapter is chosen       True
+interval        long           Determines interval value for IEEE 802.3ad mode True
+mode            8023ad         EtherChannel mode of operation                  True
+netaddr         0              Address to ping                                 True
+noloss_failover yes            Enable lossless failover after ping failure     True
+num_retries     3              Times to retry ping before failing              True
+retry_time      1              Wait time (in seconds) between pings            True
+use_alt_addr    no             Enable Alternate EtherChannel Address           True
+use_jumbo_frame no             Enable Gigabit Ethernet Jumbo Frames            True
+############
+
+#### Network adapter: ent33 ####
+adapter_names   ent1,ent13     EtherChannel Adapters                           True
+alt_addr        0x000000000000 Alternate EtherChannel Address                  True
+auto_recovery   yes            Enable automatic recovery after failover        True
+backup_adapter  NONE           Adapter used when whole channel fails           True
+hash_mode       default        Determines how outgoing adapter is chosen       True
+interval        long           Determines interval value for IEEE 802.3ad mode True
+mode            8023ad         EtherChannel mode of operation                  True
+netaddr         0              Address to ping                                 True
+noloss_failover yes            Enable lossless failover after ping failure     True
+num_retries     3              Times to retry ping before failing              True
+retry_time      1              Wait time (in seconds) between pings            True
+use_alt_addr    no             Enable Alternate EtherChannel Address           True
+use_jumbo_frame no             Enable Gigabit Ethernet Jumbo Frames            True
+############
+
+#### Network adapter: ent34 ####
+adapter_names   ent4,ent16     EtherChannel Adapters                           True
+alt_addr        0x000000000000 Alternate EtherChannel Address                  True
+auto_recovery   yes            Enable automatic recovery after failover        True
+backup_adapter  NONE           Adapter used when whole channel fails           True
+hash_mode       default        Determines how outgoing adapter is chosen       True
+interval        long           Determines interval value for IEEE 802.3ad mode True
+mode            8023ad         EtherChannel mode of operation                  True
+netaddr         0              Address to ping                                 True
+noloss_failover yes            Enable lossless failover after ping failure     True
+num_retries     3              Times to retry ping before failing              True
+retry_time      1              Wait time (in seconds) between pings            True
+use_alt_addr    no             Enable Alternate EtherChannel Address           True
+use_jumbo_frame no             Enable Gigabit Ethernet Jumbo Frames            True
+############
+
+#### Network adapter: ent35 ####
+adapter_names   ent5,ent17     EtherChannel Adapters                           True
+alt_addr        0x000000000000 Alternate EtherChannel Address                  True
+auto_recovery   yes            Enable automatic recovery after failover        True
+backup_adapter  NONE           Adapter used when whole channel fails           True
+hash_mode       default        Determines how outgoing adapter is chosen       True
+interval        long           Determines interval value for IEEE 802.3ad mode True
+mode            8023ad         EtherChannel mode of operation                  True
+netaddr         0              Address to ping                                 True
+noloss_failover yes            Enable lossless failover after ping failure     True
+num_retries     3              Times to retry ping before failing              True
+retry_time      1              Wait time (in seconds) between pings            True
+use_alt_addr    no             Enable Alternate EtherChannel Address           True
+use_jumbo_frame no             Enable Gigabit Ethernet Jumbo Frames            True
+############
+
+#### Network adapter: ent36 ####
+adapter_names   ent20          EtherChannel Adapters                           True
+alt_addr        0x000000000000 Alternate EtherChannel Address                  True
+auto_recovery   yes            Enable automatic recovery after failover        True
+backup_adapter  NONE           Adapter used when whole channel fails           True
+hash_mode       default        Determines how outgoing adapter is chosen       True
+interval        long           Determines interval value for IEEE 802.3ad mode True
+mode            standard       EtherChannel mode of operation                  True
+netaddr         0              Address to ping                                 True
+noloss_failover yes            Enable lossless failover after ping failure     True
+num_retries     3              Times to retry ping before failing              True
+retry_time      1              Wait time (in seconds) between pings            True
+use_alt_addr    no             Enable Alternate EtherChannel Address           True
+use_jumbo_frame no             Enable Gigabit Ethernet Jumbo Frames            True
+############
+
+#### Network adapter: ent37 ####
+accounting      disabled Enable per-client accounting of network statistics                                 True
+adapter_reset   no       Reset real adapter on HA takeover                                                  True
+ctl_chan                 Control Channel adapter for SEA failover                                           True
+fb_delay        30       Delay before failback occurs (seconds)                                             True
+gvrp            no       Enable GARP VLAN Registration Protocol (GVRP)                                      True
+ha_mode         auto     High Availability Mode                                                             True
+hash_algo       0        Hash algorithm used to select a SEA thread                                         True
+health_time     60       Time in seconds required until the SEA is deemed healthy                           True
+jumbo_frames    no       Enable Gigabit Ethernet Jumbo Frames                                               True
+large_receive   no       Enable receive TCP segment aggregation                                             True
+largesend       1        Enable Hardware Transmit TCP Resegmentation                                        True
+link_time       60       Time in seconds required for the link to be declared healthy after a status change True
+lldpsvc         no       Enable IEEE 802.1qbg services                                                      True
+netaddr         0        Address to ping                                                                    True
+noauto_failback disabled Disable auto failback                                                              True
+nthreads        7        Number of SEA threads in Thread mode                                               True
+pvid            1132     PVID to use for the SEA device                                                     True
+pvid_adapter    ent28    Default virtual adapter to use for non-VLAN-tagged packets                         True
+qos_mode        disabled N/A                                                                                True
+queue_size      8192     Queue size for a SEA thread                                                        True
+real_adapter    ent32    Physical adapter associated with the SEA                                           True
+send_RARP       yes      Transmit Reverse ARP after HA takeover                                             True
+thread          1        Thread mode enabled (1) or disabled (0)                                            True
+virt_adapters   ent28    List of virtual adapters associated with the SEA (comma separated)                 True
+############
+
+#### Network adapter: ent38 ####
+accounting      disabled Enable per-client accounting of network statistics                                 True
+adapter_reset   no       Reset real adapter on HA takeover                                                  True
+ctl_chan                 Control Channel adapter for SEA failover                                           True
+fb_delay        30       Delay before failback occurs (seconds)                                             True
+gvrp            no       Enable GARP VLAN Registration Protocol (GVRP)                                      True
+ha_mode         auto     High Availability Mode                                                             True
+hash_algo       0        Hash algorithm used to select a SEA thread                                         True
+health_time     60       Time in seconds required until the SEA is deemed healthy                           True
+jumbo_frames    no       Enable Gigabit Ethernet Jumbo Frames                                               True
+large_receive   no       Enable receive TCP segment aggregation                                             True
+largesend       1        Enable Hardware Transmit TCP Resegmentation                                        True
+link_time       60       Time in seconds required for the link to be declared healthy after a status change True
+lldpsvc         no       Enable IEEE 802.1qbg services                                                      True
+netaddr         0        Address to ping                                                                    True
+noauto_failback disabled Disable auto failback                                                              True
+nthreads        7        Number of SEA threads in Thread mode                                               True
+pvid            1232     PVID to use for the SEA device                                                     True
+pvid_adapter    ent29    Default virtual adapter to use for non-VLAN-tagged packets                         True
+qos_mode        disabled N/A                                                                                True
+queue_size      8192     Queue size for a SEA thread                                                        True
+real_adapter    ent33    Physical adapter associated with the SEA                                           True
+send_RARP       yes      Transmit Reverse ARP after HA takeover                                             True
+thread          1        Thread mode enabled (1) or disabled (0)                                            True
+virt_adapters   ent29    List of virtual adapters associated with the SEA (comma separated)                 True
+############
+
+#### Network adapter: ent39 ####
+accounting      disabled Enable per-client accounting of network statistics                                 True
+adapter_reset   no       Reset real adapter on HA takeover                                                  True
+ctl_chan                 Control Channel adapter for SEA failover                                           True
+fb_delay        30       Delay before failback occurs (seconds)                                             True
+gvrp            no       Enable GARP VLAN Registration Protocol (GVRP)                                      True
+ha_mode         auto     High Availability Mode                                                             True
+hash_algo       0        Hash algorithm used to select a SEA thread                                         True
+health_time     60       Time in seconds required until the SEA is deemed healthy                           True
+jumbo_frames    no       Enable Gigabit Ethernet Jumbo Frames                                               True
+large_receive   no       Enable receive TCP segment aggregation                                             True
+largesend       1        Enable Hardware Transmit TCP Resegmentation                                        True
+link_time       60       Time in seconds required for the link to be declared healthy after a status change True
+lldpsvc         no       Enable IEEE 802.1qbg services                                                      True
+netaddr         0        Address to ping                                                                    True
+noauto_failback disabled Disable auto failback                                                              True
+nthreads        7        Number of SEA threads in Thread mode                                               True
+pvid            1332     PVID to use for the SEA device                                                     True
+pvid_adapter    ent30    Default virtual adapter to use for non-VLAN-tagged packets                         True
+qos_mode        disabled N/A                                                                                True
+queue_size      8192     Queue size for a SEA thread                                                        True
+real_adapter    ent34    Physical adapter associated with the SEA                                           True
+send_RARP       yes      Transmit Reverse ARP after HA takeover                                             True
+thread          1        Thread mode enabled (1) or disabled (0)                                            True
+virt_adapters   ent30    List of virtual adapters associated with the SEA (comma separated)                 True
+############
+
+#### Network adapter: ent40 ####
+accounting      disabled Enable per-client accounting of network statistics                                 True
+adapter_reset   no       Reset real adapter on HA takeover                                                  True
+ctl_chan                 Control Channel adapter for SEA failover                                           True
+fb_delay        30       Delay before failback occurs (seconds)                                             True
+gvrp            no       Enable GARP VLAN Registration Protocol (GVRP)                                      True
+ha_mode         auto     High Availability Mode                                                             True
+hash_algo       0        Hash algorithm used to select a SEA thread                                         True
+health_time     60       Time in seconds required until the SEA is deemed healthy                           True
+jumbo_frames    no       Enable Gigabit Ethernet Jumbo Frames                                               True
+large_receive   no       Enable receive TCP segment aggregation                                             True
+largesend       1        Enable Hardware Transmit TCP Resegmentation                                        True
+link_time       60       Time in seconds required for the link to be declared healthy after a status change True
+lldpsvc         no       Enable IEEE 802.1qbg services                                                      True
+netaddr         0        Address to ping                                                                    True
+noauto_failback disabled Disable auto failback                                                              True
+nthreads        7        Number of SEA threads in Thread mode                                               True
+pvid            1432     PVID to use for the SEA device                                                     True
+pvid_adapter    ent31    Default virtual adapter to use for non-VLAN-tagged packets                         True
+qos_mode        disabled N/A                                                                                True
+queue_size      8192     Queue size for a SEA thread                                                        True
+real_adapter    ent35    Physical adapter associated with the SEA                                           True
+send_RARP       yes      Transmit Reverse ARP after HA takeover                                             True
+thread          1        Thread mode enabled (1) or disabled (0)                                            True
+virt_adapters   ent31    List of virtual adapters associated with the SEA (comma separated)                 True
+############
+
+#### Network adapter: ent41 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+buf_mode        min            Receive Buffer Mode                        True
+chksum_offload  yes            Enable Checksum Offload for IPv4 packets   True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+ipv6_offload    no             Enable Checksum Offload for IPv6 packets   True
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    64             Maximum Huge Buffers                       True
+max_buf_large   64             Maximum Large Buffers                      True
+max_buf_medium  256            Maximum Medium Buffers                     True
+max_buf_small   2048           Maximum Small Buffers                      True
+max_buf_tiny    2048           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    24             Minimum Huge Buffers                       True
+min_buf_large   24             Minimum Large Buffers                      True
+min_buf_medium  128            Minimum Medium Buffers                     True
+min_buf_small   512            Minimum Small Buffers                      True
+min_buf_tiny    512            Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent42 ####
+accounting      disabled Enable per-client accounting of network statistics                                 True
+adapter_reset   no       Reset real adapter on HA takeover                                                  True
+ctl_chan                 Control Channel adapter for SEA failover                                           True
+fb_delay        30       Delay before failback occurs (seconds)                                             True
+gvrp            no       Enable GARP VLAN Registration Protocol (GVRP)                                      True
+ha_mode         auto     High Availability Mode                                                             True
+hash_algo       0        Hash algorithm used to select a SEA thread                                         True
+health_time     60       Time in seconds required until the SEA is deemed healthy                           True
+jumbo_frames    no       Enable Gigabit Ethernet Jumbo Frames                                               True
+large_receive   no       Enable receive TCP segment aggregation                                             True
+largesend       0        Enable Hardware Transmit TCP Resegmentation                                        True
+link_time       60       Time in seconds required for the link to be declared healthy after a status change True
+lldpsvc         no       Enable IEEE 802.1qbg services                                                      True
+netaddr         0        Address to ping                                                                    True
+noauto_failback disabled Disable auto failback                                                              True
+nthreads        7        Number of SEA threads in Thread mode                                               True
+pvid            127      PVID to use for the SEA device                                                     True
+pvid_adapter    ent41    Default virtual adapter to use for non-VLAN-tagged packets                         True
+qos_mode        disabled N/A                                                                                True
+queue_size      8192     Queue size for a SEA thread                                                        True
+real_adapter    ent36    Physical adapter associated with the SEA                                           True
+send_RARP       yes      Transmit Reverse ARP after HA takeover                                             True
+thread          1        Thread mode enabled (1) or disabled (0)                                            True
+virt_adapters   ent41    List of virtual adapters associated with the SEA (comma separated)                 True
+############
+
+#### Network adapter: ent43 ####
+adapter_names   ent25,ent24    EtherChannel Adapters                           True
+alt_addr        0x000000000000 Alternate EtherChannel Address                  True
+auto_recovery   yes            Enable automatic recovery after failover        True
+backup_adapter  NONE           Adapter used when whole channel fails           True
+hash_mode       default        Determines how outgoing adapter is chosen       True
+interval        long           Determines interval value for IEEE 802.3ad mode True
+mode            8023ad         EtherChannel mode of operation                  True
+netaddr         0              Address to ping                                 True
+noloss_failover yes            Enable lossless failover after ping failure     True
+num_retries     3              Times to retry ping before failing              True
+retry_time      1              Wait time (in seconds) between pings            True
+use_alt_addr    no             Enable Alternate EtherChannel Address           True
+use_jumbo_frame no             Enable Gigabit Ethernet Jumbo Frames            True
+############
+
+#### Network adapter: ent44 ####
+alt_addr        0x000000000000 Alternate Ethernet Address                 True
+buf_mode        min            Receive Buffer Mode                        True
+chksum_offload  yes            Enable Checksum Offload for IPv4 packets   True
+copy_buffs      32             Transmit Copy Buffers                      True
+copy_bytes      65536          Transmit Copy Buffer Size                  True
+desired_mapmem  0              I/O memory entitlement reserved for device False
+ipv6_offload    no             Enable Checksum Offload for IPv6 packets   True
+max_buf_control 64             Maximum Control Buffers                    True
+max_buf_huge    64             Maximum Huge Buffers                       True
+max_buf_large   64             Maximum Large Buffers                      True
+max_buf_medium  256            Maximum Medium Buffers                     True
+max_buf_small   2048           Maximum Small Buffers                      True
+max_buf_tiny    2048           Maximum Tiny Buffers                       True
+min_buf_control 24             Minimum Control Buffers                    True
+min_buf_huge    24             Minimum Huge Buffers                       True
+min_buf_large   24             Minimum Large Buffers                      True
+min_buf_medium  128            Minimum Medium Buffers                     True
+min_buf_small   512            Minimum Small Buffers                      True
+min_buf_tiny    512            Minimum Tiny Buffers                       True
+poll_uplink     no             Enable Uplink Polling                      True
+poll_uplink_int 1000           Time interval for Uplink Polling           True
+trace_debug     no             Trace Debug Enable                         True
+use_alt_addr    no             Enable Alternate Ethernet Address          True
+############
+
+#### Network adapter: ent45 ####
+accounting      disabled Enable per-client accounting of network statistics                                 True
+adapter_reset   no       Reset real adapter on HA takeover                                                  True
+ctl_chan                 Control Channel adapter for SEA failover                                           True
+fb_delay        30       Delay before failback occurs (seconds)                                             True
+gvrp            no       Enable GARP VLAN Registration Protocol (GVRP)                                      True
+ha_mode         auto     High Availability Mode                                                             True
+hash_algo       0        Hash algorithm used to select a SEA thread                                         True
+health_time     60       Time in seconds required until the SEA is deemed healthy                           True
+jumbo_frames    no       Enable Gigabit Ethernet Jumbo Frames                                               True
+large_receive   no       Enable receive TCP segment aggregation                                             True
+largesend       1        Enable Hardware Transmit TCP Resegmentation                                        True
+link_time       60       Time in seconds required for the link to be declared healthy after a status change True
+lldpsvc         no       Enable IEEE 802.1qbg services                                                      True
+netaddr         0        Address to ping                                                                    True
+noauto_failback disabled Disable auto failback                                                              True
+nthreads        7        Number of SEA threads in Thread mode                                               True
+pvid            1127     PVID to use for the SEA device                                                     True
+pvid_adapter    ent44    Default virtual adapter to use for non-VLAN-tagged packets                         True
+qos_mode        disabled N/A                                                                                True
+queue_size      8192     Queue size for a SEA thread                                                        True
+real_adapter    ent43    Physical adapter associated with the SEA                                           True
+send_RARP       yes      Transmit Reverse ARP after HA takeover                                             True
+thread          1        Thread mode enabled (1) or disabled (0)                                            True
+virt_adapters   ent44    List of virtual adapters associated with the SEA (comma separated)                 True
+############
+
+#### Network adapter: ent90 ####
+base_adapter  ent37 VLAN Base Adapter True
+vlan_priority 0     VLAN Priority     True
+vlan_tag_id   20    VLAN Tag ID       True
+############
+
