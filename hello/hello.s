@@ -7,7 +7,7 @@ str:
 _main:
   movl $0x2000004, %eax
   movl $1, %edi
-  movq str@GOTPCREL(%rip), %rsi
+  leaq str(%rip), %rsi
   movq $100, %rdx
   syscall
 
