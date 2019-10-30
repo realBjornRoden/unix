@@ -68,6 +68,11 @@ export EDITOR=/usr/bin/vi
       code/unix $
       ```
 
+* Rename a file with spaces in the name, if it's the only file in the directory (NB. on some shell's need to escape each space separately)
+   ```
+   $ mv * $(echo *|tr ' ' '_')
+   ```
+   
 ## VI editor tips & trix
 [posix-vi](https://www.unix.com/man-page/posix/1/vi/) and command line editing features (ESC one time to enter command mode, until insert/append/substitute/change command, then ESC again to get back to command mode). In interactive shell, `ESC-v` will enter into `$VISUAL` editor for the command line (save & exit will execute the edited command).<br>
 `.` - Repeat last command<br>
