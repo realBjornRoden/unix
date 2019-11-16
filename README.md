@@ -116,4 +116,5 @@ export EDITOR=/usr/bin/vi
 * Optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
 ```
 set tabstop=4
+set expandtab " this is for Python, to expand each tab to spaces
 ```
