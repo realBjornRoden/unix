@@ -26,11 +26,13 @@
 # Install & Baseline
 #------------------------------------------------------------------------------
 ##
-## SQLite
+## SQLite (https://www.sqlite.org/)
+## https://www.sqlitetutorial.net/download-install-sqlite/
 ##
 
 ##
-## MariaDB
+## MariaDB (https://mariadb.com/)
+## https://mariadb.com/kb/en/library/getting-installing-and-upgrading-mariadb/
 ##
 ##$ sudo yum -y install mariadb-server
 ##$ sudo systemctl start mariadb
