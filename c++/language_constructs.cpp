@@ -47,7 +47,6 @@ public:
     int area(){return width*height;}
     int volume(){return width*height*depth;}
 };
-
 int Rectangulum::set(int x, int y) {
     try { width = x; height = y; } catch (int e) { return e; }
     return 0;
@@ -76,7 +75,7 @@ void logrecord(const char *format, ...)
 
 void terminate(int i){logrecord("signal [%d %s]\n",i,(i==15)?"SIGTERM":"");exit(i);}
 
-//
+// Main
 int main(int argc, char *argv[]) {
     cout << "***" << "START\n";
 
