@@ -178,5 +178,5 @@ int main(int argc, char *argv[]) {
     	switch(__e__) {
     	case 1: cout << "Terminate case 1\n"; break;
     	default: cout << "Terminate default\n"; raise(SIGTERM);
-		}
+        }
 }
