@@ -26,6 +26,10 @@
 # Install & Baseline
 #------------------------------------------------------------------------------
 ##
+## SQLite
+##
+
+##
 ## MariaDB
 ##
 ##$ sudo yum -y install mariadb-server
@@ -39,6 +43,19 @@
 # DDL
 #------------------------------------------------------------------------------
 ##
+## SQLite
+##
+$ mkdir messages-db
+$ sqlite3 messages-db/messages.sqlite < messages.schema
+$ cat messages.schema
+CREATE TABLE IF NOT EXISTS [messages] (
+	[id] INTEGER  NOT NULL PRIMARY KEY AUTOINCREMENT,
+	[msg] NVARCHAR(144)  NULL
+);
+$ sqlite3 messages-db/messages.sqlite .database                  
+$ sqlite3 messages-db/messages.sqlite .tables  
+
+##
 ## MariaDB
 ##
 CREATE DATABASE userdb;
@@ -49,6 +66,12 @@ DROP DATABASE userdb;
 #------------------------------------------------------------------------------
 # DML
 #------------------------------------------------------------------------------
+##
+## SQLite
+##
+$ sqlite3 messages-db/messages.sqlite 'insert into messages (msg) values ("Hello World");'
+$ sqlite3 messages-db/messages.sqlite "select msg from messages;"
+
 ##
 ## MariaDB
 ##
