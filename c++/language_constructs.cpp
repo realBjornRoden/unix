@@ -25,18 +25,22 @@ set -x; c++ -o ${0%%.*} $0; exit
 // SOFTWARE.
 //
 
+// Scope: basic program structure, control structures, functions, arrays, pointers, file I/O, processs/threads, and basic concepts of object-oriented programming (classes, objects, function overloading) 
+
 // Importing/Including
 #include <iostream>
 using namespace std;
+#include <unistd.h>
 #include <signal.h>
+#include <sys/wait.h>
 
 // Definitions
 #define ASCII_BASE '0'
 
-// Global Variables
+// Declarations - Global Variable
 int i=-1;
 
-// Classes
+// Declarations - Class
 class Rectangulum {
     union{ int width, x; };
     union{ int height, y; };
@@ -87,7 +91,10 @@ int main(int argc, char *argv[]) {
     i = atoi(argv[argc-1]);
     }
 
-// Data Structures
+// External
+    system("uname -a");
+
+// Object - Data & Methods
     Rectangulum r;
     int x,y,z;
 
@@ -101,7 +108,7 @@ int main(int argc, char *argv[]) {
     printf("values: x == %d y == %d z == %d\n",x,y,z);
     cout << "volume: " << r.volume() << endl;
 
-// Conditionals
+// Control - Conditionals
     if (i>0) printf("1: i is %d>0\n",i);
     else if (i<0) printf("1: i is %d<0\n",i);
     else printf("1: i is %d==0\n",i);
@@ -119,7 +126,7 @@ int main(int argc, char *argv[]) {
         printf("4: i is %d<0\n",i); break;
     }
 
-// Loops - Sequential
+// Control - Loops - Sequential
     const int k=3;
 
     for (int j=0;j<=k;j++) printf("for k==%d j==%d\n",k,j);
@@ -130,7 +137,7 @@ int main(int argc, char *argv[]) {
     j=0;
     do printf("do while k==%d j==%d\n",k,j); while (++j<=k);
 
-// Loops - Breakout variations
+// Control - Loops - Breakout variations
     j=0;
     do {
         if (j>k) break;
@@ -158,22 +165,37 @@ int main(int argc, char *argv[]) {
         } while (++j);
     } catch (int e){}
 
-// Exceptions
+// Control - Thread/Process
+    {
+        pid_t  p1,p2; int rc = 0;
+        if ((p1 = fork())<0) {
+            printf("Fork failed %d\n",p1);
+        } else if (p1 == 0){
+            printf("Child process %d\n",p1);
+        } else {
+            printf("Parent process child pid = %d\n",p1);
+            p2 = wait(&rc);
+            (WIFEXITED(rc))?printf("Child process pid %d exit status: %d\n",p2,WEXITSTATUS(rc)):NULL; 
+            exit(0);
+        }
+    }
+
+// Control - Exceptions
     signal (SIGTERM, terminate);
 
-    int __e__;
+    int _e_;
     try {
         throw i;
     } catch (int e) {
         cout << "Exception e == " << e << "\n";
-        __e__ = e;
+        _e_ = e;
         if (e!=9) goto terminate;
     }
 
-    { cout << "Bye\n"; exit(0); } // compound statement, just for the sake of it ;)
+    cout << "Bye\n"; exit(0);
 
     terminate:
-        switch(__e__) {
+        switch(_e_) {
             case 1: cout << "Terminate case 1\n"; break;
             default: cout << "Terminate default\n"; raise(SIGTERM);
         }

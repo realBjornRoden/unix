@@ -22,7 +22,13 @@
 # SOFTWARE.
 #
 
+# Scope: basic program structure, control structures, functions, arrays, pointers, file I/O, processs/threads, and basic concepts of object-oriented programming (classes, objects, function overloading)
+
 // Importing/Including
+import os,sys,getopt
+
+try: from platform import system as platform
+except: sys.exit("***ENOIMPORT" % "platform")
 
 // Definitions
 
@@ -33,6 +39,11 @@
 // Functions
 
 // Main
+
+// External
+if platform() != 'Darwin':
+ try: os.system('''uname -a''')
+ except: pass
 
 // Parameters
 

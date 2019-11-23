@@ -34,12 +34,18 @@
 ## MariaDB (https://mariadb.com/)
 ## https://mariadb.com/kb/en/library/getting-installing-and-upgrading-mariadb/
 ##
+##$ brew install mariadb
+##$ brew services start mariadb
+##$ mysql -u root
+##
 ##$ sudo yum -y install mariadb-server
 ##$ sudo systemctl start mariadb
 ##$ sudo systemctl enable mariadb
 ##$ sudo systemctl status mariadb
 ##$ sudo mysql_secure_installation
 ##$ mysql -u root -p
+##$ mysqladmin status
+##$ mysqladmin shutdown
 
 #------------------------------------------------------------------------------
 # DDL
