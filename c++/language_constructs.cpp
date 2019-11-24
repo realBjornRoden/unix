@@ -77,7 +77,7 @@ void logrecord(const char *format, ...)
     va_end(args);
 }
 
-void terminate(int i){logrecord("signal [%d %s]\n",i,(i==15)?"SIGTERM":"");exit(i);}
+void cbTerminate(int i){logrecord("signal [%d %s]\n",i,(i==15)?"SIGTERM":"");exit(i);}
 
 // Main
 int main(int argc, char *argv[]) {
@@ -181,7 +181,7 @@ int main(int argc, char *argv[]) {
     }
 
 // Control - Exceptions
-    signal (SIGTERM, terminate);
+    signal (SIGTERM, cbTerminate);
 
     int _e_;
     try {
