@@ -23,6 +23,7 @@
 #
 
 # Scope: basic program structure, control structures, functions, arrays, pointers, file I/O, processs/threads, and basic concepts of object-oriented programming (classes, objects, function overloading)
+# https://docs.python.org/3.7/library/index.html
 
 # Importing/Including
 import os,sys,signal,threading,getopt
