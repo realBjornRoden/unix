@@ -27,6 +27,7 @@
 # Importing/Including
 import os,sys,signal,threading,getopt
 import http.client
+import ftplib
 
 try: from platform import system as platform
 except: sys.exit("***ENOIMPORT" % "platform")
@@ -166,4 +167,18 @@ if __name__ == "__main__":
  print(rc.status, rc.reason)
  html_data = rc.read()
  print("Read http data = \"%80.80s ...\""%html_data)
+
+ try: ftp = ftplib.FTP(host="ftp1.at.proftpd.org",timeout=3)
+ except: sys.exit('***EFTP')
+ else:
+  try: print(ftp.login())
+  except: sys.exit('***EFTPLOGIN')
+  else:
+   try: ftp.retrlines('LIST')
+   except: sys.exit('***EFTPLIST')
+   else:
+    print(ftp.cwd('distrib'))
+    try: ftp.retrlines('LIST')
+    except: sys.exit('***EFTPLIST')
+
 
