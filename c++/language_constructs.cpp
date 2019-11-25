@@ -171,11 +171,11 @@ int main(int argc, char *argv[]) {
         if ((p1 = fork())<0) {
             printf("Fork failed %d\n",p1);
         } else if (p1 == 0){
-            printf("Child process %d\n",p1);
+            printf("In child process %d\n",p1);
         } else {
-            printf("Parent process child pid = %d\n",p1);
+            printf("In parent process with child pid = %d\n",p1);
             p2 = wait(&rc);
-            (WIFEXITED(rc))?printf("Child process pid %d exit status: %d\n",p2,WEXITSTATUS(rc)):NULL; 
+            (WIFEXITED(rc))?printf("Child process pid %d exit status = %d\n",p2,WEXITSTATUS(rc)):NULL;
             exit(0);
         }
     }
@@ -200,3 +200,5 @@ int main(int argc, char *argv[]) {
             default: cout << "Terminate default\n"; raise(SIGTERM);
         }
 }
+
+// I/O (File & Network)

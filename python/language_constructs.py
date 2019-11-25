@@ -26,6 +26,7 @@
 
 # Importing/Including
 import os,sys,signal,threading,getopt
+import http.client
 
 try: from platform import system as platform
 except: sys.exit("***ENOIMPORT" % "platform")
@@ -122,8 +123,19 @@ if __name__ == "__main__":
    if (j>k): raise 0
  except: pass
 
-# Exceptions
+# Control - Thread/Process
+ p1 = os.fork()
+ if p1 < 0:
+  print("Fork failed %d"%p1)
+ elif p1 == 0:
+  print("In child process %d"%p1)
+ else:
+  print("In parent process child pid = %d"%p1);
+  p2,rc = os.wait()
+  print("Child process pid %d exit status = %d"%(p2,rc))
+  sys.exit(0)
 
+# Exceptions
  signal.signal(signal.SIGTERM, cbTerminate)
 
  try: 0/i
@@ -133,4 +145,25 @@ if __name__ == "__main__":
  else:
   print("Terminate %d" % i)
 
+# I/O (File)
+ try:
+  with open(sys.argv[2],"r+") as fd:
+   try: file_data = fd.read()
+   except: sys.exit('***EREAD')
+   else:
+    print("Read \"%s\" from %s"%(file_data,sys.argv[2]))
+    try: rc = fd.write("hello")
+    except: sys.exit('***EWRITE ' + sys.argv[2] + rc)
+    else: print("Wrote %d byte to %s"%(rc,sys.argv[2]))
+   try: rc = fd.close()
+   except: sys.exit('***ECLOSE ' + sys.argv[2] + rc)
+ except: sys.exit('***EOPEN ' + sys.argv[2])
+
+# I/O (TCP/HTTP)
+ cd = http.client.HTTPSConnection("www.google.com")
+ cd.request("GET", "/")
+ rc = cd.getresponse()
+ print(rc.status, rc.reason)
+ html_data = rc.read()
+ print("Read http data = \"%80.80s ...\""%html_data)
 
