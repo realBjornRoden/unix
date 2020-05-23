@@ -66,9 +66,9 @@ Source (original format)
     STOP RUN.
 ```
 
-### Deno [hello.deno](hello.deno)
+### Deno [hello.ts](hello.ts)
 ```
-$ deno run --quiet --allow-net ./hello.deno
+$ deno run --quiet --allow-net ./hello.ts
 Listening on http://localhost:8000/
 Hello World 1
 Hello World 2
