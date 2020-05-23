@@ -66,6 +66,28 @@ Source (original format)
     STOP RUN.
 ```
 
+### Deno [hello.deno](hello.deno)
+```
+$ deno run --quiet --allow-net ./hello.deno
+Listening on http://localhost:8000/
+Hello World 1
+Hello World 2
+Hello World 3
+```
+Source
+```
+import { serve } from "https://deno.land/std@0.52.0/http/server.ts";
+  const srv = serve({ port: 8000 });
+  console.log("Listening on http://localhost:8000/");
+  var i:number = 0;
+  for await (const req of srv) {
+    ++i;
+    req.respond({ body: "Hello World "+i+"\n"});
+    console.log("Hello World "+i);
+  }
+
+```
+
 ### Dockers [hello.dockers](hello.dockers)
 ```
 $ sh hello.dockers 
