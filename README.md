@@ -6,7 +6,9 @@
 ## Proper Command Line SHELL
 Install [Homebrew](https://github.com/Homebrew/brew#readme) on macosx
 ```
-curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh
+$ curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh
+$ chmod +x ./install.sh
+$ ./install.sh
 ```
 Install [KornShell](https://en.wikipedia.org/wiki/KornShell) on macosx
 ```
