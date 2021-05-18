@@ -4,6 +4,10 @@
 [Shell and Utilities volume of IEEE POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)<br>
 
 ## Proper Command Line SHELL
+Install [Homebrew]((https://github.com/Homebrew/brew#readme) on macosx
+```
+curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh
+```
 Install [KornShell](https://en.wikipedia.org/wiki/KornShell) on macosx
 ```
 $ brew install ksh
