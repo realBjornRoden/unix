@@ -64,5 +64,5 @@ $ mkdir sysdata
 $ virtualenv sysdata # python3 -m venv sysdata
 $ source sysdata/bin/activate
 (sysdata) $ cd sysdata
-(sysdata) sysdata $ pip install textfsm
+(sysdata) sysdata $ pip install textfsm # pip3 install textfsm
 ```
