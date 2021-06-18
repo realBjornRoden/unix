@@ -61,7 +61,7 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 ## Setup
 ```
 $ mkdir sysdata
-$ virtualenv sysdata
+$ virtualenv sysdata # python3 -m venv sysdata
 $ source sysdata/bin/activate
 (sysdata) $ cd sysdata
 (sysdata) sysdata $ pip install textfsm
