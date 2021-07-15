@@ -2,6 +2,8 @@
 [darwin aka macosx](https://en.wikipedia.org/wiki/Darwin_(operating_system))<br>
 [darwin-xnu kernel](https://github.com/apple/darwin-xnu/blob/master/README.md)<br>
 [Shell and Utilities volume of IEEE POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)<br>
+[Technical Report (informative) Conflicts between ISO/IEC 9945 (POSIX) and the Linux Standard Base](https://personal.opengroup.org/~ajosey/tr20-08-2005.txt)<br>
+
 
 ## Proper Command Line SHELL
 Install [Homebrew](https://github.com/Homebrew/brew#readme) on macosx
