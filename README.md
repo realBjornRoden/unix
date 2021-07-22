@@ -3,7 +3,14 @@
 [darwin-xnu kernel](https://github.com/apple/darwin-xnu/blob/master/README.md)<br>
 [Shell and Utilities volume of IEEE POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799/)<br>
 
+
 ## Proper Command Line SHELL
+Install [Homebrew](https://github.com/Homebrew/brew#readme) on macosx
+```
+$ curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh
+$ chmod +x ./install.sh
+$ ./install.sh
+```
 Install [KornShell](https://en.wikipedia.org/wiki/KornShell) on macosx
 ```
 $ brew install ksh
@@ -14,7 +21,7 @@ $ chsh -s /bin/ksh
 ```
 Configure `~/.profile`
 ```
-export "PS1="\${PWD#*/*/*/} \$ "
+export PS1="\${PWD#*/*/*/} \$ "
 export VISUAL=/usr/bin/vi
 export EDITOR=/usr/bin/vi
 ```
@@ -121,5 +128,5 @@ export EDITOR=/usr/bin/vi
 * Optional initialization command file `~/.exrc`, in this case set the tabstop to 4 instead of default 8
 ```
 set tabstop=4
-set expandtab " this is for Python, to expand each tab to spaces
+set expandtab " this is for Python & YAML, to expand each tab to spaces
 ```
