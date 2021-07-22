@@ -1,0 +1,75 @@
+#
+# ibm-aix-entstat.textfsm
+#
+# Copyright (c) 2019 B.Roden
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# 
+Value Required Device_Name (\S+)
+Value Device_Type (.*)
+Value Hardware_Address (.*)
+Value Link_Status (\S+)
+Value Link_Status_Reason (.*)
+Value Media_Speed_Running (.*)
+Value Jumbo_Frames (\S+)
+Value LSO (\S+)
+Value LRO (\S+)
+Value Priority (\S+)
+Value LAN_State (\S+)
+Value Hypervisor_Send_Failures (\d+)
+Value Hypervisor_Receiver_Failures (\d+)
+Value Hypervisor_Send_Errors (\d+)
+Value Hypervisor_Receive_Failures (\d+)
+Value Transmit_Errors (\d+)
+Value Receive_Errors (\d+)
+Value Transmit_Packets_Dropped (\d+)
+Value Receive_Packets_Dropped (\d+)
+Value DMA_Underrun (\d+)
+Value DMA_Overrun (\d+)
+Value Alignment_Errors (\d+)
+Value No_Resource_Errors (\d+)
+Value Packets_Discarded_by_Adapter (\d+)
+
+
+Start 
+	^ETHERNET STATISTICS (${Device_Name})
+	^Device Type: ${Device_Type}
+	^Hardware Address: ${Hardware_Address}
+	^Transmit Errors: ${Transmit_Errors}\s+Receive Errors: ${Receive_Errors}
+	^Packets Dropped: ${Transmit_Packets_Dropped}\s+Packets Dropped: ${Receive_Packets_Dropped}
+	^DMA Underrun: ${DMA_Underrun}\s+DMA Overrun: ${DMA_Overrun}
+	^.*Alignment Errors: ${Alignment_Errors}
+	^.*No Resource Errors: ${No_Resource_Errors}
+	^.*Packets Discarded by Adapter: ${Packets_Discarded_by_Adapter}
+	^Link Status: ${Link_Status} -> LinkStatus
+	^Media Speed Running: ${Media_Speed_Running}
+	^Jumbo Frames: ${Jumbo_Frames}
+	^Transmit TCP segmentation offload: ${LSO}
+	^Receive TCP segment aggregation: ${LRO} -> Record
+	^\s+Priority: ${Priority}
+	^LAN State: ${LAN_State}
+	^Hypervisor Send Failures: ${Hypervisor_Send_Failures}
+	^\s+Receiver Failures: ${Hypervisor_Receiver_Failures}
+	^\s+Send Errors: ${Hypervisor_Send_Errors}
+	^Hypervisor Receive Failures: ${Hypervisor_Receive_Failures} -> Record
+
+LinkStatus
+	^\s+Reason: ${Link_Status_Reason} -> Start
+	^.* -> Start
+
