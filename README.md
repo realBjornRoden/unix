@@ -116,6 +116,8 @@ export EDITOR=/usr/bin/vi
 `:!ls` - Enter line command mode, and run the "ls" command in a subshell<br>
 `:r!ls` - Enter line command mode, and run the "ls" command in a subshell, and read the the output into the editor (at the cursor)<br>
 `:%!sort` - Enter line command mode, and for all lines in the file "%", run the "sort" command in a subshell and replace the content of the file<br>
+`:%s/^XXX/YYY/g` - Enter line command mode, and for all lines in the file "%", change all "XXX" on all lines which start with "XXX" to "YYY"<br>
+`:%s/$/;/g` - Enter line command mode, and for all lines in the file "%", add a ";" at the end of each line<br>
 `:2,$!sort` - Enter line command mode, and for all lines from 2 until end of file "2,$", run the "sort" command in a subshell and replace the content of the file (if the file has a header line)<br>
 `:!rm %` - Enter line command mode, and run the "rm" command on the edited filename "%"<br>
 `:e /etc/motd` - Enter line command mode, and open the file /etc/motd into the editor<br>
