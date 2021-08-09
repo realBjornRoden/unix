@@ -11,8 +11,8 @@ Verify script as Open Sourced (or with script [check-md5.sh](check-md5.sh)):
 
 ## Directories
 * Source data directory
-* Template directory
-* Digestion output directory
+* [Template directory](templates)
+* (Digestion output directory)
 
 ## Perform
 1. Ensure command output files are in a directory (such as default "data"), and there is a matching template (such as in default "templates")
