@@ -1,0 +1,12 @@
+##Value Local (.*)
+Value Model (.*)
+Value Family (.*)
+Value Version (.*)
+Value Hostname (.*)
+
+Start
+## ^.*@${Local}[>#].
+ ^Model: ${Model}
+ ^Family: ${Family}
+ ^Junos: ${Version}
+ ^Hostname: ${Hostname} -> Record
