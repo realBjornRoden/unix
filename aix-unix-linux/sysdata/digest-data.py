@@ -25,24 +25,25 @@ import sys, getopt, os.path
 try: import textfsm
 except: sys.exit('***ENOTEXTFSM')
 
-if len(sys.argv) < 3: sys.exit('***ENOARG inputfile templatefile')
+if len(sys.argv) < 3: sys.exit('***ENOARG <inputfile> <templatefile>')
 for i in range(len(sys.argv)): 
  if not os.path.isfile(sys.argv[i]): sys.exit('***ENOFILE ' + sys.argv[i])
  if not os.access(sys.argv[i],os.R_OK): sys.exit('***ENOREAD ' + sys.argv[i])
 
 try:
  with open(sys.argv[1], encoding='utf-8') as fd:
-  try: file_data = fd.read()
+  try: filedata = fd.read()
   except: sys.exit('***EREAD')
 except: sys.exit('***EOPEN ' + sys.argv[1])
 
 try:
- with open(sys.argv[2]) as fd:
-  try: parser = textfsm.TextFSM(fd)
-  except: sys.exit('***ETEXTFSM')
-except: sys.exit('***EOPEN ' + sys.argv[2])
+ with open(sys.argv[2]) as template:
+  parser = textfsm.TextFSM(template)
+except: 
+  sys.exit('***EOPEN|ETEXTFSM' + sys.argv[2])
 
-try: result = parser.ParseText(file_data)
+
+try: result = parser.ParseText(filedata)
 except: sys.exit('***EPARSETEXT')
 
 try:
