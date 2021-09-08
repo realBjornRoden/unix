@@ -59,6 +59,10 @@ export EDITOR=/usr/bin/vi
       root@honeyp321:/ $ echo $LOGNAME $(hostname -s) $PWD
       root honeyp321 /
       ```
+      For ZSH, PS1 can be defined similarly
+      ```
+      $ export PS1="%n@%m:%2~%(!.#.\$) "
+      ```
 
 * Defaulting command line editor and command line visual editor (invoked with `ESC-v` to edit long command line code), add to `~/.profile`
    ```
