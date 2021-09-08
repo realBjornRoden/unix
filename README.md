@@ -59,7 +59,7 @@ export EDITOR=/usr/bin/vi
       root@honeyp321:/ $ echo $LOGNAME $(hostname -s) $PWD
       root honeyp321 /
       ```
-      For ZSH, PS1 can be defined similarly (~/.zshrc)
+      For ZSH, `PS1` can be defined similarly (`~/.zshrc`)
       ```
       $ export PS1="%n@%m:%2~%(!.#.\$) "
       ```
