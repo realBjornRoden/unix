@@ -14,14 +14,14 @@ $ mpicc -o hello_mpi hello_mpi.c
 ## Running (the runtime order depends on job scheduler, in this case on a single node)
 ```
 $ mpirun hello_mpi              
-mpicommworld_rank:3 mpicommworld_size:6
-mpicommworld_rank:4 mpicommworld_size:6
-mpicommworld_rank:5 mpicommworld_size:6
-mpicommworld_rank:0 mpicommworld_size:6
-mpicommworld_rank:1 mpicommworld_size:6
-mpicommworld_rank:2 mpicommworld_size:6
+mpicommworld_rank:1 mpicommworld_size:6 mpiproc_name(hostname):MacBook.
+mpicommworld_rank:0 mpicommworld_size:6 mpiproc_name(hostname):MacBook.
+mpicommworld_rank:3 mpicommworld_size:6 mpiproc_name(hostname):MacBook.
+mpicommworld_rank:4 mpicommworld_size:6 mpiproc_name(hostname):MacBook.
+mpicommworld_rank:5 mpicommworld_size:6 mpiproc_name(hostname):MacBook.
+mpicommworld_rank:2 mpicommworld_size:6 mpiproc_name(hostname):MacBook.
 ```
-## Sample multi-threaded programs (hello_mpi.c)
+## Sample MPI multi-threaded programs (hello_mpi.c)
 ```
 #include <mpi.h>
 #include <stdio.h>
@@ -46,7 +46,7 @@ main(int argc, char** argv)
     // Gets the name of the processor
     MPI_Get_processor_name(mpiproc_name, &mpiproc_len);
 
-    printf("mpicommworld_rank:%d mpicommworld_size:%d\n",mpicommworld_rank,mpicommworld_size);
+    printf("mpicommworld_rank:%d mpicommworld_size:%d mpiproc_name(hostname):%s\n", mpicommworld_rank, mpicommworld_size, mpiproc_name);
 
     // Terminates MPI execution environment
     MPI_Finalize();
