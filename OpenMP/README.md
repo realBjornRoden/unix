@@ -12,7 +12,7 @@ Apple clang version 12.0.5 (clang-1205.0.22.9)
 ```
 $ gcc -Xpreprocessor -fopenmp -lomp hello_mp.c -o hello_mp
 ```
-## Sample multi-threaded program (specifying 4 threads)
+## Running after specifying 4 threads
 ```
 $ export OMP_NUM_THREADS=4
 $ ./hello
@@ -21,7 +21,9 @@ Number of threads = 4
 Welcome to GFG from thread = 2
 Welcome to GFG from thread = 1
 Welcome to GFG from thread = 3
-
+```
+## Sample multi-threaded programs (hello_mp.c)
+```
 // OpenMP header
 #include <omp.h>
 
