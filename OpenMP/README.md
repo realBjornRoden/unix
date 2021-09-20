@@ -1,6 +1,5 @@
 ## openMPP
-Open Multi-processing (OpenMP) is a technique of parallelizing a section(s) of C/C++/Fortran code.
-[darwin aka macosx](https://www.openmp.org)
+[Open Multi-processing (OpenMP)](https://www.openmp.org) is a technique of parallelizing a section(s) of C/C++/Fortran code.
 ## Installing on macOS
 ```
 $ brew install gcc
