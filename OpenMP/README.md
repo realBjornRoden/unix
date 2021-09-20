@@ -35,8 +35,8 @@ main(int argc, char* argv[])
 {
     int tid;
 
-    // Begin parallel region
-    #pragma omp parallel private(nthreads, tid)
+    // Begin parallel region, define thread private variable(s)
+    #pragma omp parallel private(tid)
     {   
         // The current thread number
         tid = omp_get_thread_num(); 
