@@ -1,17 +1,21 @@
-## Message Passing Interface (MPI)
+## Message Passing Interface (MPI) for Massively Parallel (MP) High Performance Computing (HPC)
 [MPI Forum](https://www.mpi-forum.org/) is the standardization forum for the [Message Passing Interface (MPI)](https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf).<br>
 [OpenMPI](https://www.open-mpi.org/) project is an open source Message Passing Interface (MPI).<br>
 [MPICH](https://www.mpich.org/) is a high-performance and widely portable implementation of the Message Passing Interface (MPI) standard (MPI-1, MPI-2 and MPI-3).<br>
 
-## Installing on macOS
+## Installing on macOS (either or)
 ```
+# OpenMPI
 $ brew install open-mpi
+
+# MPICH (will require unlinking of open-mpi, if it is installed)
+$ brew install mpich
 ```
-## Compiling & linking a program (hello_mpi.c)
+## Compiling & linking a program with OpenMPI (hello_mpi.c)
 ```
 $ mpicc -o hello_mpi hello_mpi.c
 ```
-## Running (the runtime order depends on job scheduler, in this case on a single node)
+## Running with OpenMPI (the runtime order depends on job scheduler, in this case on a single node)
 ```
 $ mpirun hello_mpi              
 mpicommworld_rank:1 mpicommworld_size:6 mpiproc_name(hostname):MacBook.
