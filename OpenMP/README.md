@@ -30,22 +30,20 @@ Welcome to GFG from thread = 3
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char* argv[])
+int
+main(int argc, char* argv[])
 {
-    int nthreads, tid;
+    int tid;
 
-    // Declare start of parallel region
+    // Begin parallel region
     #pragma omp parallel private(nthreads, tid)
-    {
-        // thread number
-        tid = omp_get_thread_num();
-        printf("Thread = %d\n", tid);
-
-        if (tid == 0) {
-            // master process thread, get the number of parallell threads
-            nthreads = omp_get_num_threads();
-            printf("Number of threads = %d\n", nthreads);
-        }
+    {   
+        // The current thread number
+        tid = omp_get_thread_num(); 
+        printf("thread no = %d\n", tid);
+        
+        // If in the master thread
+        if (tid == 0) printf("no of threads = %d\n", omp_get_num_threads());
     }
 }
 ```
