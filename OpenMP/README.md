@@ -11,15 +11,15 @@ Apple clang version 12.0.5 (clang-1205.0.22.9)
 ```
 $ gcc -Xpreprocessor -fopenmp -lomp hello_mp.c -o hello_mp
 ```
-## Running after specifying 4 threads
+## Running after specifying 4 threads (the runtime order depends on scheduler)
 ```
 $ export OMP_NUM_THREADS=4
-$ ./hello
-Welcome to GFG from thread = 0
-Number of threads = 4
-Welcome to GFG from thread = 2
-Welcome to GFG from thread = 1
-Welcome to GFG from thread = 3
+$ ./hello_mp
+thread no = 3
+thread no = 2
+thread no = 0
+no of threads = 4
+thread no = 1
 ```
 ## Sample multi-threaded programs (hello_mp.c)
 ```
