@@ -1,5 +1,5 @@
 ## openMPP
-[Open Multi-processing (OpenMP)](https://www.openmp.org) is a technique of parallelizing a section(s) of C/C++/Fortran code.
+[Open Multi-processing (OpenMP)](https://www.openmp.org) is an API model used to parallelize section(s) of code for shared-memory multiprocessing programming in C, C++ and Fortran.
 ## Installing on macOS
 ```
 $ brew install gcc
