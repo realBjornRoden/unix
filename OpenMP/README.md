@@ -1,5 +1,5 @@
 ## openMPP
-[Open Multi-processing (OpenMP)](https://www.openmp.org) is an API model used to parallelize section(s) of code for shared-memory multiprocessing programming in C, C++ and Fortran ([OpenMP 5.1 API Syntax Reference Guide](https://www.openmp.org/wp-content/uploads/OpenMPRefCard-5.1-web.pdf)).
+[Open Multi-processing (OpenMP)](https://www.openmp.org) is an API model used to parallelize section(s) of code for symetric mulitprocessing ([SMP](https://en.wikipedia.org/wiki/Symmetric_multiprocessing)) shared-memory programming in C, C++ and Fortran ([OpenMP 5.1 API Syntax Reference Guide](https://www.openmp.org/wp-content/uploads/OpenMPRefCard-5.1-web.pdf)).
 ## Installing on macOS
 ```
 $ brew install gcc
