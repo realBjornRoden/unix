@@ -5,6 +5,6 @@ $ patch [options] [originalfile [patchfile]]
 ```
 ### Example
 ```
-$ diff -u hello.py 2.py >hello.patch
+$ diff -u hello.py hello-fixed.py >hello.patch
 $ patch hello.py hello.patch
 ```
