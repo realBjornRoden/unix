@@ -1,6 +1,10 @@
 ## Patching a source file
-`
-# The ".patch" suffix is not required
-$	diff -u <source-file> <new-source-file-with-fixes> ><diff4patchfile>.patch
-$	patch <source-file> <diff4patchfile>.patch
-
+```
+$	diff [OPTION]... FILES
+$	patch [options] [originalfile [patchfile]]
+```
+### Example
+```
+$ diff -u hello.py 2.py >hello.patch
+$ patch hello.py hello.patch
+```
