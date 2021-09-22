@@ -1,7 +1,7 @@
 ## Patching a source file
 ```
-$	diff [OPTION]... FILES
-$	patch [options] [originalfile [patchfile]]
+$ diff [OPTION]... FILES
+$ patch [options] [originalfile [patchfile]]
 ```
 ### Example
 ```
