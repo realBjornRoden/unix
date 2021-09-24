@@ -109,6 +109,8 @@ export EDITOR=/usr/bin/vi
 `db` - Delete one word from cursor backward<br>
 `cw` - Change one word from cursor forward<br>
 `cb` - Change one word from cursor backward<br>
+`.` - Repeat the last command, such as change the case of the current charcter<br>
+`~` - Change the case of the current chararcter to the opposite (UPPER > lower || lower > UPPER)<br>
 `ZZ` - Save file and exit<br>
 `/` - Enter search mode (down)<br>
 `?` - Enter search mode (up)<br>
