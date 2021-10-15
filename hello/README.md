@@ -1,6 +1,6 @@
 # Hello World
 
-### Assembly - Mach-O [hello.s](hello.s)
+### Assembly - Darwin/macOS [hello.s](hello.s)
 ```
 $ as hello.s -o hello.o                    
 $ ld hello.o -e _main -o hello -lSystem -lc
